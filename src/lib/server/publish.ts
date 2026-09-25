@@ -2,6 +2,7 @@ import { FieldValue, Timestamp } from 'firebase-admin/firestore';
 import { env } from '$env/dynamic/private';
 import type { Menu, Restaurant, Section, SourceType } from '$lib/types';
 import { db } from './firebase';
+import { putMenu, storeEnabled } from './store';
 import { createHash } from 'node:crypto';
 
 /** ask vercel ISR to regenerate these paths (same mechanism as /api/revalidate) */
@@ -20,6 +21,14 @@ export async function writeMenu(
   r: Restaurant,
   m: { houseNotes?: string; sections: Section[]; sourceUrl: string; sourceType: SourceType; sourceHash?: string }
 ) {
+  if (storeEnabled) {
+    const hash = m.sourceHash ?? createHash('sha256').update(JSON.stringify(m.sections)).digest('hex');
+    await putMenu(r, {
+      ...(m.houseNotes && { houseNotes: m.houseNotes }), sections: m.sections,
+      sourceUrl: m.sourceUrl, sourceType: m.sourceType, sourceHash: hash
+    });
+    return;
+  }
   const ref = db().collection('menus').doc(r.id);
   const now = Timestamp.now();
   const hash = m.sourceHash ?? createHash('sha256').update(JSON.stringify(m.sections)).digest('hex');

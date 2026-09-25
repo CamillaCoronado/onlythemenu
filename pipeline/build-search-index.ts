@@ -8,10 +8,12 @@ import { join } from 'node:path';
 import { buildCities, buildCityIndex } from '../src/lib/server/searchIndex';
 import type { Restaurant } from '../src/lib/types';
 import { db, firebaseEnabled } from './firebase';
+import { getStoredIndex, storeEnabled } from '../src/lib/server/store';
 import { readSeeds } from './seedFiles';
 import { revalidate } from './revalidate';
 
 async function allRestaurants(): Promise<Restaurant[]> {
+  if (storeEnabled) return getStoredIndex(true);
   if (!firebaseEnabled) return readSeeds().map((s) => s.restaurant);
   const snap = await db().collection('restaurants').get();
   return snap.docs.map((d) => ({ id: d.id, ...d.data() }) as Restaurant);

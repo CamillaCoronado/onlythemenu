@@ -1,6 +1,9 @@
 <script lang="ts">
   import { page } from '$app/state';
   import { env } from '$env/dynamic/public';
+  import type { ActionData, PageData } from './$types';
+
+  let { data, form }: { data: PageData; form: ActionData } = $props();
 
   let email = $state('');
   let sent = $state(false);
@@ -61,7 +64,14 @@
   <a href="/" class="home">onlythemenu</a>
   <h1 class="display">owners sign in</h1>
   <p class="muted">diners never need an account. this is for restaurant owners fixing their own menu.</p>
-  {#if !configured}
+  {#if !configured && data.passwordLogin}
+    <form method="POST" action="?/password">
+      <label for="password" class="sr-only">admin password</label>
+      <input id="password" class="pop field" type="password" name="password" required placeholder="admin password" autocomplete="current-password" />
+      <button class="pop btn mustard wide">sign in as admin</button>
+    </form>
+    {#if form?.err}<p class="err" role="alert">{form.err}</p>{/if}
+  {:else if !configured}
     <p class="err">sign-in isn't configured on this deploy.</p>
   {:else if sent}
     <p>check your email for the sign-in link.</p>

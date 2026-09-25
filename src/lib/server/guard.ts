@@ -1,5 +1,6 @@
 import { error, redirect } from '@sveltejs/kit';
 import { firebaseEnabled } from './firebase';
+import { adminAuthEnabled } from './adminAuth';
 
 export function requireUser(locals: App.Locals, url: URL): string {
   if (!firebaseEnabled) error(503, 'accounts need firebase configured');
@@ -8,6 +9,11 @@ export function requireUser(locals: App.Locals, url: URL): string {
 }
 
 export function requireAdmin(locals: App.Locals, url: URL): string {
+  // the shared admin password stands in for an account when firebase is not configured
+  if (adminAuthEnabled() && !firebaseEnabled) {
+    if (!locals.isAdmin) redirect(303, `/login?next=${encodeURIComponent(url.pathname)}`);
+    return 'admin';
+  }
   const uid = requireUser(locals, url);
   if (!locals.isAdmin) error(403, 'admins only');
   return uid;

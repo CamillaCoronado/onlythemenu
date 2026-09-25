@@ -1,6 +1,8 @@
 import { error, json } from '@sveltejs/kit';
 import { FieldValue } from 'firebase-admin/firestore';
+import { randomUUID } from 'node:crypto';
 import { db, firebaseEnabled } from '$lib/server/firebase';
+import { getReports, getStoredMenu, putReports, storeEnabled } from '$lib/server/store';
 import { allow } from '$lib/server/ratelimit';
 import { maybeAutoApply } from '$lib/server/reports';
 import { listCityPathsFor } from '$lib/server/paths';
@@ -25,6 +27,24 @@ export const POST: RequestHandler = async ({ request, getClientAddress, url }) =
   if (!(await allow(getClientAddress(), 'report', 20, 3_600_000))) error(429, 'slow down');
   const b = (await request.json().catch(() => ({}))) as Partial<Body>;
   if (!valid(b)) error(400, 'bad report');
+
+  if (storeEnabled) {
+    const menu = await getStoredMenu(b.restaurantId);
+    const item = menu?.sections?.[b.sectionIdx]?.items?.[b.itemIdx];
+    if (!item || item.name !== b.itemName) error(409, 'menu changed, reload');
+
+    const rows = await getReports(b.restaurantId);
+    rows.push({
+      id: randomUUID(), restaurantId: b.restaurantId, sectionIdx: b.sectionIdx, itemIdx: b.itemIdx,
+      itemName: b.itemName, ...(b.variantLabel && { variantLabel: b.variantLabel }),
+      reportedCents: b.reportedCents, createdAt: new Date().toISOString(), status: 'open'
+    });
+    await putReports(b.restaurantId, rows);
+
+    const applied = await maybeAutoApply(b, b.reportedCents);
+    if (applied) await revalidatePaths(url.origin, await listCityPathsFor(b.restaurantId));
+    return json({ ok: true, stored: true, applied });
+  }
 
   if (!firebaseEnabled) {
     console.info('[report:dev]', b);

@@ -1,6 +1,8 @@
 import { error, json, redirect } from '@sveltejs/kit';
 import { FieldValue } from 'firebase-admin/firestore';
+import { randomUUID } from 'node:crypto';
 import { db, firebaseEnabled, storage } from '$lib/server/firebase';
+import { listSubmissions, putRaw, putSubmissions, storeEnabled } from '$lib/server/store';
 import { allow } from '$lib/server/ratelimit';
 import type { RequestHandler } from './$types';
 
@@ -28,7 +30,14 @@ export const POST: RequestHandler = async ({ request, getClientAddress }) => {
   if (!url && !hasPhoto) error(400, 'add a link or a photo');
   if (hasPhoto && (photo.size > MAX_BYTES || !IMAGE_TYPES.has(photo.type))) error(400, 'photo must be a jpg/png/webp/heic under 12 mb');
 
-  if (firebaseEnabled) {
+  if (storeEnabled) {
+    const id = randomUUID();
+    if (hasPhoto) await putRaw(`submissions/${id}.${photo.type.split('/')[1]}`, Buffer.from(await photo.arrayBuffer()), photo.type);
+    await putSubmissions([
+      ...(await listSubmissions()),
+      { id, ...(restaurantId && { restaurantId }), ...(url && { url }), createdAt: new Date().toISOString(), status: 'open' }
+    ]);
+  } else if (firebaseEnabled) {
     const ref = db().collection('submissions').doc();
     let photoPath: string | undefined;
     if (hasPhoto) {
