@@ -1,4 +1,4 @@
-/** npm run seed: writes /seed/*.json into firestore as owner menus verified 2026-09-25, then rebuilds search. */
+/** npm run seed: writes /seed/*.json into the blob store (or firestore) as owner menus verified 2026-09-25. */
 import { Timestamp } from 'firebase-admin/firestore';
 import { db, firebaseEnabled } from './firebase';
 import { readSeeds } from './seedFiles';
@@ -6,6 +6,7 @@ import { sha256 } from './fetch';
 import { validate } from './validate';
 import { buildSearchIndex } from './build-search-index';
 import { SEED_VERIFIED_AT } from '../src/lib/seed';
+import { putRestaurant, storeEnabled } from '../src/lib/server/store';
 
 async function main() {
   const seeds = readSeeds();
@@ -13,8 +14,15 @@ async function main() {
     const v = validate(s.menu);
     if (!v.ok) throw new Error(`${s.file} fails validation: ${v.failures.join('; ')}`);
   }
+  if (storeEnabled) {
+    for (const s of seeds) {
+      await putRestaurant(s.restaurant, { ...s.menu, sourceHash: sha256(s.raw) });
+      console.log(`seeded ${s.restaurant.id}`);
+    }
+    return;
+  }
   if (!firebaseEnabled) {
-    console.log(`${seeds.length} seed menus valid. FIREBASE_* unset, so nothing written (the app reads /seed directly).`);
+    console.log(`${seeds.length} seed menus valid. No store configured, so nothing written (the app reads /seed directly).`);
     return;
   }
   const batch = db().batch();

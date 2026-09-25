@@ -15,7 +15,9 @@ npm run guard        # banned LLM/AI deps, client firebase outside /login, float
 npm run build && npx vite preview --port 4173 && node tests/e2e.mjs   # acceptance checks in chromium
 ```
 
-With Firebase: copy `.env.example` to `.env`, fill `FIREBASE_*`, then `npm run seed` (writes the 3 seed menus, `sourceType: 'owner'`, `verifiedAt: 2026-09-25`). Deploy `firestore.rules`, `firestore.indexes.json` (includes a TTL on `ratelimits.expiresAt`), and `storage.rules`.
+With a Vercel Blob store (the deployed setup): `vercel blob create-store <name> --access private`, `vercel env pull .env.local`, then `npm run seed` writes the seed menus into it. Menus live at `menus/{id}.json`, restaurants at `restaurants/{id}.json`, and every restaurant is mirrored into a single `index.json` so listing a city is one read instead of a bucket scan. `BLOB_READ_WRITE_TOKEN` (or `BLOB_STORE_ID`) is what switches the app off the seed files — see `src/lib/server/store.ts`.
+
+With Firebase instead: copy `.env.example` to `.env`, fill `FIREBASE_*`, then `npm run seed` (writes the 3 seed menus, `sourceType: 'owner'`, `verifiedAt: 2026-09-25`). Deploy `firestore.rules`, `firestore.indexes.json` (includes a TTL on `ratelimits.expiresAt`), and `storage.rules`.
 
 ## layout
 
