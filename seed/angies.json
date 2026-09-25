@@ -1,0 +1,83 @@
+{
+  "restaurant": { "slug": "angies", "citySlug": "logan-ut", "name": "Angie's Restaurant",
+    "address": "690 N Main St, Logan, UT 84321", "phone": "(435) 752-9252",
+    "website": "https://angiesrest.com/menu-2025/", "geo": null, "cuisine": ["diner", "breakfast", "american"] },
+  "menu": {
+    "houseNotes": "full menu served all day. kids eat free monday after 4pm with an adult meal.",
+    "sourceUrl": "https://angiesrest.com/menu-2025/",
+    "sections": [
+      { "title": "Angie's Favorites", "note": "2 eggs, hash browns, and toast, muffin, biscuits, or a pancake.", "items": [
+        { "name": "4 Jumbo Sausage Links", "priceCents": 1599 },
+        { "name": "4 Thick Bacon Strips", "priceCents": 1599 },
+        { "name": "Lean Ham Steak", "priceCents": 1599 },
+        { "name": "Chicken Fried Steak", "priceCents": 1699 },
+        { "name": "Homestyle Patty Sausage", "priceCents": 1699 },
+        { "name": "The Sampler", "priceCents": 1799 },
+        { "name": "12 oz New York Steak & Eggs", "priceCents": 2799 }
+      ]},
+      { "title": "Breakfast Classics", "items": [
+        { "name": "Benedict Arnold", "priceCents": 1499 },
+        { "name": "Florentine Benedict", "priceCents": 1599, "tags": ["V"] },
+        { "name": "Biscuits & Gravy", "variants": [{ "label": "plain", "priceCents": 799 }, { "label": "w/ hash browns + 2 eggs", "priceCents": 1499 }] },
+        { "name": "Early Bird Special", "priceCents": 899 },
+        { "name": "Cheesecake Waffle", "priceCents": 1449 },
+        { "name": "Pancakes", "variants": [{ "label": "short", "priceCents": 799 }, { "label": "full", "priceCents": 899 }] },
+        { "name": "Swedish Crepes", "priceCents": 1399 }
+      ]},
+      { "title": "The Scone Corner", "items": [
+        { "name": "Scone", "description": "Deep-fried, with honey butter.", "priceCents": 699 },
+        { "name": "Cinnamon & Sugar Scone", "priceCents": 899 },
+        { "name": "Cheesecake Scone", "priceCents": 1399 }
+      ]},
+      { "title": "Omelettes", "items": [
+        { "name": "Denver", "priceCents": 1549 },
+        { "name": "Ham & Cheese", "priceCents": 1499 },
+        { "name": "Meat Lovers", "priceCents": 1699 },
+        { "name": "Vegetarian", "priceCents": 1599, "tags": ["V"] }
+      ]},
+      { "title": "Burgers", "note": "1/2 lb angus. with potato, salad, or cup of soup.", "items": [
+        { "name": "Cheeseburger", "variants": [{ "label": "plain", "priceCents": 1399 }, { "label": "+ bacon", "priceCents": 1499 }] },
+        { "name": "Black & Bleu Burger", "priceCents": 1549 },
+        { "name": "California Burger", "priceCents": 1549 },
+        { "name": "Southwest Burger", "priceCents": 1549 },
+        { "name": "California Impossible Burger", "priceCents": 1499, "tags": ["V"] }
+      ]},
+      { "title": "Lunch Favorites", "items": [
+        { "name": "Navajo Taco", "description": "Scone with chili and fixings. Side not included.", "priceCents": 1449 },
+        { "name": "French Dip", "priceCents": 1399 },
+        { "name": "The Club", "priceCents": 1399 },
+        { "name": "Hot Roast Beef Sandwich", "priceCents": 1449 },
+        { "name": "Half Sandwich Combo", "priceCents": 999 },
+        { "name": "Salad", "variants": [{ "label": "half", "priceCents": 1199 }, { "label": "large", "priceCents": 1449 }] },
+        { "name": "Soup", "variants": [{ "label": "cup", "priceCents": 499 }, { "label": "bowl", "priceCents": 699 }] }
+      ]},
+      { "title": "Dinner", "note": "with soup or salad, vegetables, and potato.", "items": [
+        { "name": "Chicken Fried Steak", "variants": [{ "label": "single", "priceCents": 1499 }, { "label": "double", "priceCents": 1949 }] },
+        { "name": "Pot Roast", "priceCents": 1999 },
+        { "name": "12 oz New York Steak", "priceCents": 2899 },
+        { "name": "Steak & Shrimp", "priceCents": 3199 },
+        { "name": "Shrimp Dinner", "variants": [{ "label": "6 pc", "priceCents": 1599 }, { "label": "12 pc", "priceCents": 2199 }] }
+      ]},
+      { "title": "Appetizers", "items": [
+        { "name": "Deluxe Nachos", "variants": [{ "label": "half", "priceCents": 899 }, { "label": "full", "priceCents": 1399 }] },
+        { "name": "Combo Platter", "priceCents": 1799 },
+        { "name": "Onion Rings", "priceCents": 699 },
+        { "name": "Chips & Salsa", "priceCents": 499 }
+      ]},
+      { "title": "Desserts", "items": [
+        { "name": "Giant Shake (30 oz)", "priceCents": 899 },
+        { "name": "Cheesecake Shake", "priceCents": 999 },
+        { "name": "Ice Cream Sundae", "priceCents": 899 },
+        { "name": "The Kitchen Sink", "description": "Clean the sink, get a bumper sticker.", "priceCents": 2499 },
+        { "name": "Homemade Cheesecake", "variants": [{ "label": "half slice", "priceCents": 699 }, { "label": "slice", "priceCents": 899 }, { "label": "whole", "priceCents": 3999 }] }
+      ]},
+      { "title": "Kids (12 & under)", "items": [
+        { "name": "Grilled Cheese", "priceCents": 599 },
+        { "name": "Mini Corn Dogs", "priceCents": 599 },
+        { "name": "Mac & Cheese", "priceCents": 599 },
+        { "name": "Cheeseburger", "priceCents": 649 },
+        { "name": "2 Piece Chicken Strips", "priceCents": 699 }
+      ]}
+    ]
+  }
+}

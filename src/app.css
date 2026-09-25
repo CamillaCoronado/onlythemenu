@@ -1,0 +1,100 @@
+@font-face { font-family: 'Figtree'; font-weight: 400; font-display: swap; src: url('/fonts/figtree-latin-400-normal.woff2') format('woff2'); }
+@font-face { font-family: 'Figtree'; font-weight: 600; font-display: swap; src: url('/fonts/figtree-latin-600-normal.woff2') format('woff2'); }
+@font-face { font-family: 'Figtree'; font-weight: 800; font-display: swap; src: url('/fonts/figtree-latin-800-normal.woff2') format('woff2'); }
+@font-face { font-family: 'Bagel Fat One'; font-weight: 400; font-display: swap; src: url('/fonts/bagel-fat-one-latin-400-normal.woff2') format('woff2'); }
+
+:root {
+  --mayo: #FFF6E0;        /* page background */
+  --mayo-deep: #F7E7BF;   /* sheet + input backgrounds */
+  --ink: #2B1B17;         /* text, outlines, shadows */
+  --ink-muted: #6E5A4E;   /* descriptions, meta */
+  --ketchup: #D7263D;
+  --ketchup-light: #FBD9DC;
+  --mustard: #F4B400;
+  --mustard-light: #FFF0BF;
+  --pickle: #5B8E3E;
+  --pickle-light: #DCEBD2;
+  --line: 3px solid var(--ink);
+  --pop-shadow: 4px 4px 0 var(--ink);
+  --pop-shadow-pressed: 1px 1px 0 var(--ink);
+  --r: 14px;
+  --dots: radial-gradient(var(--ink) 1.2px, transparent 1.3px) 0 0 / 8px 8px;
+  --font-display: 'Bagel Fat One', 'Arial Rounded MT Bold', system-ui, sans-serif;
+  --font-ui: 'Figtree', system-ui, sans-serif;
+
+  --col: 640px;
+  --pad: 16px;
+  --press: 90ms;
+  --slap: 180ms cubic-bezier(.2, 1.4, .4, 1);
+  --safe-top: env(safe-area-inset-top, 0px);
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body {
+  margin: 0;
+  background: var(--mayo);
+  color: var(--ink);
+  font: 400 17px/1.45 var(--font-ui);
+  -webkit-font-smoothing: antialiased;
+}
+
+/* desktop: halftone fills the gutters, never behind menu text */
+@media (min-width: 700px) {
+  body::before {
+    content: '';
+    position: fixed; inset: 0; z-index: -1;
+    background: var(--dots);
+    opacity: .12;
+    -webkit-mask: linear-gradient(90deg, #000 0, transparent calc(50% - var(--col) / 2), transparent calc(50% + var(--col) / 2), #000 100%);
+            mask: linear-gradient(90deg, #000 0, transparent calc(50% - var(--col) / 2), transparent calc(50% + var(--col) / 2), #000 100%);
+    pointer-events: none;
+  }
+}
+
+.col { max-width: var(--col); margin: 0 auto; background: var(--mayo); min-height: 100dvh; }
+
+a { color: inherit; text-decoration-thickness: 2px; text-underline-offset: 3px; }
+button { font: inherit; color: inherit; }
+h1, h2, h3 { margin: 0; font-weight: 400; }
+.display { font-family: var(--font-display); font-weight: 400; }
+.muted { color: var(--ink-muted); }
+.num { font-variant-numeric: tabular-nums; font-feature-settings: 'tnum' 1; }
+.sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; border: 0; }
+
+:focus-visible { outline: 3px solid var(--ketchup); outline-offset: 2px; }
+
+/* the pop: outlined + hard offset shadow, pressed state shrinks the shadow */
+.pop {
+  border: var(--line);
+  border-radius: var(--r);
+  box-shadow: var(--pop-shadow);
+  background: var(--mayo);
+  transition: transform var(--press) ease-out, box-shadow var(--press) ease-out;
+}
+.pop:active, .pop.pressed { transform: translate(3px, 3px); box-shadow: var(--pop-shadow-pressed); }
+
+.btn {
+  display: inline-flex; align-items: center; justify-content: center; gap: 8px;
+  min-height: 44px; padding: 0 18px;
+  font-weight: 800; text-decoration: none; cursor: pointer;
+}
+.btn.mustard { background: var(--mustard); }
+.btn.ketchup { background: var(--ketchup); color: var(--mayo); }
+.btn.pickle { background: var(--pickle-light); }
+
+.icon-btn {
+  display: inline-grid; place-items: center;
+  width: 44px; height: 44px; padding: 0;
+  background: none; border: 0; cursor: pointer; border-radius: 50%;
+}
+
+@keyframes slap {
+  from { transform: scale(1.12) rotate(calc(var(--tilt, 0deg) + 2deg)); }
+  to   { transform: scale(1) rotate(var(--tilt, 0deg)); }
+}
+@keyframes sheet-up { from { transform: translateY(100%); } to { transform: translateY(0); } }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation: none !important; transition: none !important; }
+}

@@ -1,0 +1,74 @@
+{
+  "restaurant": { "slug": "maddox-drive-in", "citySlug": "perry-ut", "name": "Maddox Family Drive-In",
+    "address": "1900 S Hwy 89, Perry, UT 84302", "phone": "(435) 723-8545",
+    "website": "https://maddoxfinefood.com/drive-in/", "geo": null, "cuisine": ["burgers", "drive-in"] },
+  "menu": {
+    "houseNotes": "sandwiches & burgers come with fries.",
+    "sourceUrl": "https://maddoxfinefood.com/drive-in/",
+    "sections": [
+      { "title": "Sandwiches, Burgers & More", "items": [
+        { "name": "Hoagie Steak Sandwich", "priceCents": 1395 },
+        { "name": "Buffalo Burger", "priceCents": 1350 },
+        { "name": "Hamburger", "priceCents": 1195 },
+        { "name": "Cheeseburger", "priceCents": 1250 },
+        { "name": "Mini Cheeseburger", "priceCents": 925 },
+        { "name": "Mini Hamburger", "priceCents": 895 },
+        { "name": "Turkey Burger", "priceCents": 950 },
+        { "name": "Steak Sandwich", "priceCents": 1250 },
+        { "name": "Chicken Sandwich", "priceCents": 1195 },
+        { "name": "Grilled Cheese", "priceCents": 695 },
+        { "name": "Halibut Sandwich", "priceCents": 1395 },
+        { "name": "Special Shrimp Steak Sandwich", "priceCents": 1395 },
+        { "name": "Veggie Burger", "priceCents": 1095, "tags": ["V"] },
+        { "name": "BLT", "priceCents": 895 },
+        { "name": "Fried Shrimp Basket", "priceCents": 1195 },
+        { "name": "Foot Long Dog", "priceCents": 895 },
+        { "name": "Chicken Strips", "priceCents": 1095 }
+      ]},
+      { "title": "Famous Chicken", "items": [
+        { "name": "Chicken Basket", "priceCents": 1275 },
+        { "name": "1/2 Basket", "priceCents": 1025 },
+        { "name": "Chicken Only", "variants": [{ "label": "4 pc", "priceCents": 1195 }, { "label": "8 pc", "priceCents": 2195 }, { "label": "12 pc", "priceCents": 3195 }, { "label": "16 pc", "priceCents": 3995 }, { "label": "20 pc", "priceCents": 4695 }] }
+      ]},
+      { "title": "Enhancements", "items": [
+        { "name": "Add Bacon or Mushrooms", "priceCents": 100 },
+        { "name": "Everything Sauce (1 pint)", "priceCents": 395 }
+      ]},
+      { "title": "Salads", "items": [
+        { "name": "Tossed Green Salad", "priceCents": 495 },
+        { "name": "Summer Slaw (half pint)", "priceCents": 349 },
+        { "name": "Chicken Caesar", "priceCents": 1295 },
+        { "name": "The Ranch House Salad", "priceCents": 1395 },
+        { "name": "Seafood Salad", "priceCents": 1195 }
+      ]},
+      { "title": "Pies", "items": [
+        { "name": "Fresh Fruit Pie", "priceCents": 695 },
+        { "name": "Snicker's Pie", "priceCents": 650 },
+        { "name": "Homemade Cream Pie", "priceCents": 500 },
+        { "name": "Snickers Pie", "priceCents": 795 }
+      ]},
+      { "title": "Shakes & Cones", "items": [
+        { "name": "Shake", "priceCents": 550 },
+        { "name": "Malt", "priceCents": 550 },
+        { "name": "Sundae", "priceCents": 450 },
+        { "name": "Banana Split", "priceCents": 750 },
+        { "name": "Hard Cone", "priceCents": 495 },
+        { "name": "Soft Cone", "priceCents": 350 }
+      ]},
+      { "title": "Homemade Sodas", "items": [
+        { "name": "Root Beer", "variants": [{ "label": "SM", "priceCents": 325 }, { "label": "LG", "priceCents": 375 }] },
+        { "name": "Sarsaparilla", "variants": [{ "label": "SM", "priceCents": 325 }, { "label": "LG", "priceCents": 375 }] },
+        { "name": "Cream Soda", "variants": [{ "label": "SM", "priceCents": 325 }, { "label": "LG", "priceCents": 375 }] },
+        { "name": "Fresh Lime", "variants": [{ "label": "SM", "priceCents": 325 }, { "label": "LG", "priceCents": 375 }] },
+        { "name": "Coke & Pepsi", "variants": [{ "label": "SM", "priceCents": 295 }, { "label": "LG", "priceCents": 350 }] }
+      ]},
+      { "title": "Sides", "items": [
+        { "name": "Seafood Cocktail", "variants": [{ "label": "SM", "priceCents": 350 }, { "label": "LG", "priceCents": 700 }] },
+        { "name": "Baked Potato", "priceCents": 275 },
+        { "name": "Mashed Potato", "priceCents": 295 },
+        { "name": "Onion Rings", "priceCents": 475 },
+        { "name": "Fries", "priceCents": 250 }
+      ]}
+    ]
+  }
+}

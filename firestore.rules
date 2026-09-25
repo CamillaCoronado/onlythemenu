@@ -1,0 +1,26 @@
+rules_version = '2';
+// all writes go through the server (admin SDK bypasses these rules). clients only ever read public docs.
+service cloud.firestore {
+  match /databases/{db}/documents {
+    match /restaurants/{id} {
+      allow read: if true;
+      allow write: if false;
+    }
+    match /menus/{id} {
+      allow read: if resource.data.status == 'published';
+      // owners edit through /owner (server). direct writes allowed only for the claimed owner, published docs, integer cents.
+      allow update: if request.auth != null
+        && get(/databases/$(db)/documents/restaurants/$(id)).data.claimedBy == request.auth.uid
+        && request.resource.data.status == 'published'
+        && request.resource.data.sourceType == 'owner';
+      match /history/{ts} { allow read, write: if false; }
+    }
+    // create-only from API routes (server) — never direct client writes
+    match /reports/{id} { allow read, write: if false; }
+    match /submissions/{id} { allow read, write: if false; }
+    match /claims/{id} { allow read, write: if false; }
+    match /sources/{id} { allow read, write: if false; }
+    match /review/{id} { allow read, write: if false; }
+    match /ratelimits/{id} { allow read, write: if false; }
+  }
+}

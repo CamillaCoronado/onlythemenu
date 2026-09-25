@@ -1,0 +1,89 @@
+{
+  "restaurant": { "slug": "maddox-ranch-house", "citySlug": "perry-ut", "name": "Maddox Ranch House",
+    "address": "1900 S Hwy 89, Perry, UT 84302", "phone": "(435) 723-8545",
+    "website": "https://maddoxfinefood.com/ranch-house/", "orderUrl": "https://maddoxfinefood.com/take-out-cabin/",
+    "geo": null, "cuisine": ["steakhouse", "american"] },
+  "menu": {
+    "houseNotes": "entrées include rolls + cornpones with raspberry butter, seasonal vegetables, a potato, and homemade soup, green salad, or seafood cocktail.",
+    "sourceUrl": "https://maddoxfinefood.com/ranch-house/",
+    "sections": [
+      { "title": "World Famous Steaks", "items": [
+        { "name": "Filet Mignon", "description": "Center-cut tenderloin, never bacon-wrapped.", "variants": [{ "label": "6 oz", "priceCents": 3295 }, { "label": "10 oz", "priceCents": 3995 }] },
+        { "name": "Spicy Sirloin", "description": "14 oz, marinated in a spicy blend.", "priceCents": 3095 },
+        { "name": "T-Bone", "description": "24 oz, hand-sawn.", "priceCents": 3895 },
+        { "name": "#18 New York", "description": "18 oz.", "priceCents": 3695 },
+        { "name": "#16 Ribeye", "description": "16 oz, boneless.", "priceCents": 3795 },
+        { "name": "Maddox Sirloin", "description": "Top sirloin coulotte.", "variants": [{ "label": "7 oz", "priceCents": 2495 }, { "label": "14 oz", "priceCents": 2995 }] },
+        { "name": "Porterhouse", "description": "2 lb, limited availability.", "marketPrice": true },
+        { "name": "Prime Rib", "description": "Available after 3pm, with au jus.", "variants": [{ "label": "12 oz", "priceCents": 3395 }, { "label": "16 oz", "priceCents": 3995 }] },
+        { "name": "House Steak Sauce", "description": "Creamy au poivre.", "priceCents": 300 }
+      ]},
+      { "title": "American Bison", "items": [
+        { "name": "Bison New York", "description": "Limited availability.", "priceCents": 3495 },
+        { "name": "Bison Chicken Fried Steak", "description": "With country gravy.", "priceCents": 2695 },
+        { "name": "Bison Ribeye", "marketPrice": true }
+      ]},
+      { "title": "Local Favorites", "items": [
+        { "name": "Famous Fried Chicken", "description": "Original skinless recipe. Breast, thigh, leg & wing.", "priceCents": 2495 },
+        { "name": "Turkey Steak", "description": "With house tartar sauce.", "priceCents": 2495 },
+        { "name": "Chicken Fried Steak", "description": "Country gravy on the side.", "priceCents": 2495 },
+        { "name": "Tenderloin Medallions", "description": "Creamy peppercorn sauce.", "priceCents": 3095 },
+        { "name": "Braised Beef Short Ribs", "description": "After 4pm, limited.", "priceCents": 2695 },
+        { "name": "Ground Beef Steak", "description": "12 oz, sautéed onions.", "priceCents": 2495 },
+        { "name": "Cauliflower Steak", "description": "Chimichurri.", "priceCents": 2295, "tags": ["VG"] },
+        { "name": "Shrimp Steak", "description": "Wild shrimp, panko-breaded.", "priceCents": 2695 }
+      ]},
+      { "title": "Premium Seafood", "items": [
+        { "name": "Wild Pacific Halibut", "priceCents": 3795 },
+        { "name": "Fresh Salmon", "priceCents": 2695 },
+        { "name": "Fried Shrimp", "priceCents": 2695 },
+        { "name": "Rainbow Trout", "priceCents": 2695 }
+      ]},
+      { "title": "Combinations", "items": [
+        { "name": "Taste of Maddox", "description": "Chicken breast, turkey steak, chicken fried steak.", "priceCents": 2695 },
+        { "name": "Top of Maddox", "description": "Filet, fried shrimp, chicken breast.", "priceCents": 3795 },
+        { "name": "Steak & Shrimp", "description": "12 oz New York + fried shrimp.", "priceCents": 3195 },
+        { "name": "Shrimp Lovers", "description": "Shrimp steak + fried shrimp.", "priceCents": 2895 }
+      ]},
+      { "title": "Afternoon Specials", "note": "tue–fri, 3–5pm. includes cream pie.", "items": [
+        { "name": "Santa Maria Tri-Tip", "priceCents": 2195 },
+        { "name": "Fresh Salmon", "priceCents": 2195 },
+        { "name": "Turkey Steak", "priceCents": 2195 },
+        { "name": "Chicken Fried Steak", "priceCents": 2195 },
+        { "name": "Famous Fried Chicken", "priceCents": 2195 }
+      ]},
+      { "title": "Upgrades", "items": [
+        { "name": "Grilled Mushrooms", "priceCents": 375 },
+        { "name": "Sautéed Onions", "priceCents": 295 },
+        { "name": "Fried Shrimp Side", "priceCents": 595 },
+        { "name": "Shrimp Cocktail Upgrade", "priceCents": 495 },
+        { "name": "Super Shrimp Cocktail", "description": "Serves 2–4.", "priceCents": 1495 }
+      ]},
+      { "title": "Burgers", "note": "with fries, soup, salad, or seafood cocktail. add cheese $0.95.", "items": [
+        { "name": "Hamburger", "priceCents": 1595 },
+        { "name": "Bison Burger", "priceCents": 1795 },
+        { "name": "Turkey Burger", "priceCents": 1595 }
+      ]},
+      { "title": "Signature Salads", "items": [
+        { "name": "Chicken Caesar", "priceCents": 1695 },
+        { "name": "The Ranch House Salad", "description": "Greens, feta, avocado, egg, bacon, NY strip.", "priceCents": 1995 }
+      ]},
+      { "title": "Handcrafted Sodas", "items": [
+        { "name": "Birch Root Beer", "priceCents": 439 },
+        { "name": "Sarsaparilla", "priceCents": 439 },
+        { "name": "Old-Fashioned Cream", "priceCents": 439 },
+        { "name": "Homemade Lemonade", "priceCents": 439 },
+        { "name": "Raspberry Lemonade", "priceCents": 439 },
+        { "name": "Coke & Pepsi Products", "priceCents": 399 }
+      ]},
+      { "title": "Desserts", "items": [
+        { "name": "World Famous Cream Pie", "description": "Banana, chocolate, raspberry, coconut.", "priceCents": 795 },
+        { "name": "Homemade Ice Cream", "priceCents": 695 },
+        { "name": "Fresh Fruit Pie", "description": "Seasonal.", "marketPrice": true },
+        { "name": "Homemade Cake", "priceCents": 895 },
+        { "name": "Homemade Cheesecake", "priceCents": 995 },
+        { "name": "No Ice Cream Oreo Pie", "description": "Dairy-free.", "priceCents": 895, "tags": ["GF"] }
+      ]}
+    ]
+  }
+}

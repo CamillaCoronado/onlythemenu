@@ -1,0 +1,13 @@
+{
+  "indexes": [
+    { "collectionGroup": "reports", "queryScope": "COLLECTION", "fields": [
+      { "fieldPath": "restaurantId", "order": "ASCENDING" }, { "fieldPath": "sectionIdx", "order": "ASCENDING" },
+      { "fieldPath": "itemIdx", "order": "ASCENDING" }, { "fieldPath": "reportedCents", "order": "ASCENDING" },
+      { "fieldPath": "status", "order": "ASCENDING" }, { "fieldPath": "createdAt", "order": "ASCENDING" } ] },
+    { "collectionGroup": "claims", "queryScope": "COLLECTION", "fields": [
+      { "fieldPath": "uid", "order": "ASCENDING" }, { "fieldPath": "restaurantId", "order": "ASCENDING" } ] }
+  ],
+  "fieldOverrides": [
+    { "collectionGroup": "ratelimits", "fieldPath": "expiresAt", "ttl": true, "indexes": [] }
+  ]
+}

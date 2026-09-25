@@ -1,0 +1,3049 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`html/angies.cards.html > matches snapshot 1`] = `
+{
+  "sections": [
+    {
+      "items": [
+        {
+          "name": "4 Jumbo Sausage Links",
+          "priceCents": 1599,
+        },
+        {
+          "name": "4 Thick Bacon Strips",
+          "priceCents": 1599,
+        },
+        {
+          "name": "Lean Ham Steak",
+          "priceCents": 1599,
+        },
+        {
+          "name": "Chicken Fried Steak",
+          "priceCents": 1699,
+        },
+        {
+          "name": "Homestyle Patty Sausage",
+          "priceCents": 1699,
+        },
+        {
+          "name": "The Sampler",
+          "priceCents": 1799,
+        },
+        {
+          "name": "12 oz New York Steak & Eggs",
+          "priceCents": 2799,
+        },
+      ],
+      "title": "Angie's Favorites",
+    },
+    {
+      "items": [
+        {
+          "name": "Benedict Arnold",
+          "priceCents": 1499,
+        },
+        {
+          "name": "Florentine Benedict",
+          "priceCents": 1599,
+          "tags": [
+            "V",
+          ],
+        },
+        {
+          "name": "Biscuits & Gravy",
+          "variants": [
+            {
+              "label": "plain",
+              "priceCents": 799,
+            },
+            {
+              "label": "w/ hash browns + 2 eggs",
+              "priceCents": 1499,
+            },
+          ],
+        },
+        {
+          "name": "Early Bird Special",
+          "priceCents": 899,
+        },
+        {
+          "name": "Cheesecake Waffle",
+          "priceCents": 1449,
+        },
+        {
+          "name": "Pancakes",
+          "variants": [
+            {
+              "label": "short",
+              "priceCents": 799,
+            },
+            {
+              "label": "full",
+              "priceCents": 899,
+            },
+          ],
+        },
+        {
+          "name": "Swedish Crepes",
+          "priceCents": 1399,
+        },
+      ],
+      "title": "Breakfast Classics",
+    },
+    {
+      "items": [
+        {
+          "description": "Deep-fried, with honey butter.",
+          "name": "Scone",
+          "priceCents": 699,
+        },
+        {
+          "name": "Cinnamon & Sugar Scone",
+          "priceCents": 899,
+        },
+        {
+          "name": "Cheesecake Scone",
+          "priceCents": 1399,
+        },
+      ],
+      "title": "The Scone Corner",
+    },
+    {
+      "items": [
+        {
+          "name": "Denver",
+          "priceCents": 1549,
+        },
+        {
+          "name": "Ham & Cheese",
+          "priceCents": 1499,
+        },
+        {
+          "name": "Meat Lovers",
+          "priceCents": 1699,
+        },
+        {
+          "name": "Vegetarian",
+          "priceCents": 1599,
+          "tags": [
+            "V",
+          ],
+        },
+      ],
+      "title": "Omelettes",
+    },
+    {
+      "items": [
+        {
+          "name": "Cheeseburger",
+          "variants": [
+            {
+              "label": "plain",
+              "priceCents": 1399,
+            },
+            {
+              "label": "+ bacon",
+              "priceCents": 1499,
+            },
+          ],
+        },
+        {
+          "name": "Black & Bleu Burger",
+          "priceCents": 1549,
+        },
+        {
+          "name": "California Burger",
+          "priceCents": 1549,
+        },
+        {
+          "name": "Southwest Burger",
+          "priceCents": 1549,
+        },
+        {
+          "name": "California Impossible Burger",
+          "priceCents": 1499,
+          "tags": [
+            "V",
+          ],
+        },
+      ],
+      "title": "Burgers",
+    },
+    {
+      "items": [
+        {
+          "description": "Scone with chili and fixings. Side not included.",
+          "name": "Navajo Taco",
+          "priceCents": 1449,
+        },
+        {
+          "name": "French Dip",
+          "priceCents": 1399,
+        },
+        {
+          "name": "The Club",
+          "priceCents": 1399,
+        },
+        {
+          "name": "Hot Roast Beef Sandwich",
+          "priceCents": 1449,
+        },
+        {
+          "name": "Half Sandwich Combo",
+          "priceCents": 999,
+        },
+        {
+          "name": "Salad",
+          "variants": [
+            {
+              "label": "half",
+              "priceCents": 1199,
+            },
+            {
+              "label": "large",
+              "priceCents": 1449,
+            },
+          ],
+        },
+        {
+          "name": "Soup",
+          "variants": [
+            {
+              "label": "cup",
+              "priceCents": 499,
+            },
+            {
+              "label": "bowl",
+              "priceCents": 699,
+            },
+          ],
+        },
+      ],
+      "title": "Lunch Favorites",
+    },
+    {
+      "items": [
+        {
+          "name": "Chicken Fried Steak",
+          "variants": [
+            {
+              "label": "single",
+              "priceCents": 1499,
+            },
+            {
+              "label": "double",
+              "priceCents": 1949,
+            },
+          ],
+        },
+        {
+          "name": "Pot Roast",
+          "priceCents": 1999,
+        },
+        {
+          "name": "12 oz New York Steak",
+          "priceCents": 2899,
+        },
+        {
+          "name": "Steak & Shrimp",
+          "priceCents": 3199,
+        },
+        {
+          "name": "Shrimp Dinner",
+          "variants": [
+            {
+              "label": "6 pc",
+              "priceCents": 1599,
+            },
+            {
+              "label": "12 pc",
+              "priceCents": 2199,
+            },
+          ],
+        },
+      ],
+      "title": "Dinner",
+    },
+    {
+      "items": [
+        {
+          "name": "Deluxe Nachos",
+          "variants": [
+            {
+              "label": "half",
+              "priceCents": 899,
+            },
+            {
+              "label": "full",
+              "priceCents": 1399,
+            },
+          ],
+        },
+        {
+          "name": "Combo Platter",
+          "priceCents": 1799,
+        },
+        {
+          "name": "Onion Rings",
+          "priceCents": 699,
+        },
+        {
+          "name": "Chips & Salsa",
+          "priceCents": 499,
+        },
+      ],
+      "title": "Appetizers",
+    },
+    {
+      "items": [
+        {
+          "name": "Giant Shake (30 oz)",
+          "priceCents": 899,
+        },
+        {
+          "name": "Cheesecake Shake",
+          "priceCents": 999,
+        },
+        {
+          "name": "Ice Cream Sundae",
+          "priceCents": 899,
+        },
+        {
+          "description": "Clean the sink, get a bumper sticker.",
+          "name": "The Kitchen Sink",
+          "priceCents": 2499,
+        },
+        {
+          "name": "Homemade Cheesecake",
+          "variants": [
+            {
+              "label": "half slice",
+              "priceCents": 699,
+            },
+            {
+              "label": "slice",
+              "priceCents": 899,
+            },
+            {
+              "label": "whole",
+              "priceCents": 3999,
+            },
+          ],
+        },
+      ],
+      "title": "Desserts",
+    },
+    {
+      "items": [
+        {
+          "name": "Grilled Cheese",
+          "priceCents": 599,
+        },
+        {
+          "name": "Mini Corn Dogs",
+          "priceCents": 599,
+        },
+        {
+          "name": "Mac & Cheese",
+          "priceCents": 599,
+        },
+        {
+          "name": "Cheeseburger",
+          "priceCents": 649,
+        },
+        {
+          "name": "2 Piece Chicken Strips",
+          "priceCents": 699,
+        },
+      ],
+      "title": "Kids (12 & under)",
+    },
+  ],
+  "sourceType": "html",
+}
+`;
+
+exports[`html/maddox-drive-in.tables.html > matches snapshot 1`] = `
+{
+  "sections": [
+    {
+      "items": [
+        {
+          "name": "Hoagie Steak Sandwich",
+          "priceCents": 1395,
+        },
+        {
+          "name": "Buffalo Burger",
+          "priceCents": 1350,
+        },
+        {
+          "name": "Hamburger",
+          "priceCents": 1195,
+        },
+        {
+          "name": "Cheeseburger",
+          "priceCents": 1250,
+        },
+        {
+          "name": "Mini Cheeseburger",
+          "priceCents": 925,
+        },
+        {
+          "name": "Mini Hamburger",
+          "priceCents": 895,
+        },
+        {
+          "name": "Turkey Burger",
+          "priceCents": 950,
+        },
+        {
+          "name": "Steak Sandwich",
+          "priceCents": 1250,
+        },
+        {
+          "name": "Chicken Sandwich",
+          "priceCents": 1195,
+        },
+        {
+          "name": "Grilled Cheese",
+          "priceCents": 695,
+        },
+        {
+          "name": "Halibut Sandwich",
+          "priceCents": 1395,
+        },
+        {
+          "name": "Special Shrimp Steak Sandwich",
+          "priceCents": 1395,
+        },
+        {
+          "name": "Veggie Burger",
+          "priceCents": 1095,
+          "tags": [
+            "V",
+          ],
+        },
+        {
+          "name": "BLT",
+          "priceCents": 895,
+        },
+        {
+          "name": "Fried Shrimp Basket",
+          "priceCents": 1195,
+        },
+        {
+          "name": "Foot Long Dog",
+          "priceCents": 895,
+        },
+        {
+          "name": "Chicken Strips",
+          "priceCents": 1095,
+        },
+      ],
+      "title": "Sandwiches, Burgers & More",
+    },
+    {
+      "items": [
+        {
+          "name": "Chicken Basket",
+          "priceCents": 1275,
+        },
+        {
+          "name": "1/2 Basket",
+          "priceCents": 1025,
+        },
+      ],
+      "title": "Famous Chicken",
+    },
+    {
+      "items": [
+        {
+          "name": "Add Bacon or Mushrooms",
+          "priceCents": 100,
+        },
+        {
+          "name": "Everything Sauce (1 pint)",
+          "priceCents": 395,
+        },
+      ],
+      "title": "Enhancements",
+    },
+    {
+      "items": [
+        {
+          "name": "Tossed Green Salad",
+          "priceCents": 495,
+        },
+        {
+          "name": "Summer Slaw (half pint)",
+          "priceCents": 349,
+        },
+        {
+          "name": "Chicken Caesar",
+          "priceCents": 1295,
+        },
+        {
+          "name": "The Ranch House Salad",
+          "priceCents": 1395,
+        },
+        {
+          "name": "Seafood Salad",
+          "priceCents": 1195,
+        },
+      ],
+      "title": "Salads",
+    },
+    {
+      "items": [
+        {
+          "name": "Fresh Fruit Pie",
+          "priceCents": 695,
+        },
+        {
+          "name": "Snicker's Pie",
+          "priceCents": 650,
+        },
+        {
+          "name": "Homemade Cream Pie",
+          "priceCents": 500,
+        },
+        {
+          "name": "Snickers Pie",
+          "priceCents": 795,
+        },
+      ],
+      "title": "Pies",
+    },
+    {
+      "items": [
+        {
+          "name": "Shake",
+          "priceCents": 550,
+        },
+        {
+          "name": "Malt",
+          "priceCents": 550,
+        },
+        {
+          "name": "Sundae",
+          "priceCents": 450,
+        },
+        {
+          "name": "Banana Split",
+          "priceCents": 750,
+        },
+        {
+          "name": "Hard Cone",
+          "priceCents": 495,
+        },
+        {
+          "name": "Soft Cone",
+          "priceCents": 350,
+        },
+      ],
+      "title": "Shakes & Cones",
+    },
+    {
+      "items": [
+        {
+          "name": "Root Beer",
+          "variants": [
+            {
+              "label": "SM",
+              "priceCents": 325,
+            },
+            {
+              "label": "LG",
+              "priceCents": 375,
+            },
+          ],
+        },
+        {
+          "name": "Sarsaparilla",
+          "variants": [
+            {
+              "label": "SM",
+              "priceCents": 325,
+            },
+            {
+              "label": "LG",
+              "priceCents": 375,
+            },
+          ],
+        },
+        {
+          "name": "Cream Soda",
+          "variants": [
+            {
+              "label": "SM",
+              "priceCents": 325,
+            },
+            {
+              "label": "LG",
+              "priceCents": 375,
+            },
+          ],
+        },
+        {
+          "name": "Fresh Lime",
+          "variants": [
+            {
+              "label": "SM",
+              "priceCents": 325,
+            },
+            {
+              "label": "LG",
+              "priceCents": 375,
+            },
+          ],
+        },
+        {
+          "name": "Coke & Pepsi",
+          "variants": [
+            {
+              "label": "SM",
+              "priceCents": 295,
+            },
+            {
+              "label": "LG",
+              "priceCents": 350,
+            },
+          ],
+        },
+      ],
+      "title": "Homemade Sodas",
+    },
+    {
+      "items": [
+        {
+          "name": "Seafood Cocktail",
+          "variants": [
+            {
+              "label": "SM",
+              "priceCents": 350,
+            },
+            {
+              "label": "LG",
+              "priceCents": 700,
+            },
+          ],
+        },
+        {
+          "name": "Baked Potato",
+          "priceCents": 275,
+        },
+        {
+          "name": "Mashed Potato",
+          "priceCents": 295,
+        },
+        {
+          "name": "Onion Rings",
+          "priceCents": 475,
+        },
+        {
+          "name": "Fries",
+          "priceCents": 250,
+        },
+      ],
+      "title": "Sides",
+    },
+  ],
+  "sourceType": "html",
+}
+`;
+
+exports[`html/maddox-ranch-house.elementor.html > matches snapshot 1`] = `
+{
+  "sections": [
+    {
+      "items": [
+        {
+          "description": "Center-cut tenderloin, never bacon-wrapped.",
+          "name": "Filet Mignon",
+          "variants": [
+            {
+              "label": "6 oz",
+              "priceCents": 3295,
+            },
+            {
+              "label": "10 oz",
+              "priceCents": 3995,
+            },
+          ],
+        },
+        {
+          "description": "14 oz, marinated in a spicy blend.",
+          "name": "Spicy Sirloin",
+          "priceCents": 3095,
+        },
+        {
+          "description": "24 oz, hand-sawn.",
+          "name": "T-Bone",
+          "priceCents": 3895,
+        },
+        {
+          "description": "18 oz.",
+          "name": "#18 New York",
+          "priceCents": 3695,
+        },
+        {
+          "description": "16 oz, boneless.",
+          "name": "#16 Ribeye",
+          "priceCents": 3795,
+        },
+        {
+          "description": "Top sirloin coulotte.",
+          "name": "Maddox Sirloin",
+          "variants": [
+            {
+              "label": "7 oz",
+              "priceCents": 2495,
+            },
+            {
+              "label": "14 oz",
+              "priceCents": 2995,
+            },
+          ],
+        },
+        {
+          "description": "2 lb, limited availability.",
+          "marketPrice": true,
+          "name": "Porterhouse",
+        },
+        {
+          "description": "Available after 3pm, with au jus.",
+          "name": "Prime Rib",
+          "variants": [
+            {
+              "label": "12 oz",
+              "priceCents": 3395,
+            },
+            {
+              "label": "16 oz",
+              "priceCents": 3995,
+            },
+          ],
+        },
+        {
+          "description": "Creamy au poivre.",
+          "name": "House Steak Sauce",
+          "priceCents": 300,
+        },
+      ],
+      "title": "World Famous Steaks",
+    },
+    {
+      "items": [
+        {
+          "description": "Limited availability.",
+          "name": "Bison New York",
+          "priceCents": 3495,
+        },
+        {
+          "description": "With country gravy.",
+          "name": "Bison Chicken Fried Steak",
+          "priceCents": 2695,
+        },
+        {
+          "marketPrice": true,
+          "name": "Bison Ribeye",
+        },
+      ],
+      "title": "American Bison",
+    },
+    {
+      "items": [
+        {
+          "description": "Original skinless recipe. Breast, thigh, leg & wing.",
+          "name": "Famous Fried Chicken",
+          "priceCents": 2495,
+        },
+        {
+          "description": "With house tartar sauce.",
+          "name": "Turkey Steak",
+          "priceCents": 2495,
+        },
+        {
+          "description": "Country gravy on the side.",
+          "name": "Chicken Fried Steak",
+          "priceCents": 2495,
+        },
+        {
+          "description": "Creamy peppercorn sauce.",
+          "name": "Tenderloin Medallions",
+          "priceCents": 3095,
+        },
+        {
+          "description": "After 4pm, limited.",
+          "name": "Braised Beef Short Ribs",
+          "priceCents": 2695,
+        },
+        {
+          "description": "12 oz, sautéed onions.",
+          "name": "Ground Beef Steak",
+          "priceCents": 2495,
+        },
+        {
+          "description": "Chimichurri.",
+          "name": "Cauliflower Steak",
+          "priceCents": 2295,
+          "tags": [
+            "VG",
+          ],
+        },
+        {
+          "description": "Wild shrimp, panko-breaded.",
+          "name": "Shrimp Steak",
+          "priceCents": 2695,
+        },
+      ],
+      "title": "Local Favorites",
+    },
+    {
+      "items": [
+        {
+          "name": "Wild Pacific Halibut",
+          "priceCents": 3795,
+        },
+        {
+          "name": "Fresh Salmon",
+          "priceCents": 2695,
+        },
+        {
+          "name": "Fried Shrimp",
+          "priceCents": 2695,
+        },
+        {
+          "name": "Rainbow Trout",
+          "priceCents": 2695,
+        },
+      ],
+      "title": "Premium Seafood",
+    },
+    {
+      "items": [
+        {
+          "description": "Chicken breast, turkey steak, chicken fried steak.",
+          "name": "Taste of Maddox",
+          "priceCents": 2695,
+        },
+        {
+          "description": "Filet, fried shrimp, chicken breast.",
+          "name": "Top of Maddox",
+          "priceCents": 3795,
+        },
+        {
+          "description": "12 oz New York + fried shrimp.",
+          "name": "Steak & Shrimp",
+          "priceCents": 3195,
+        },
+        {
+          "description": "Shrimp steak + fried shrimp.",
+          "name": "Shrimp Lovers",
+          "priceCents": 2895,
+        },
+      ],
+      "title": "Combinations",
+    },
+    {
+      "items": [
+        {
+          "name": "Santa Maria Tri-Tip",
+          "priceCents": 2195,
+        },
+        {
+          "name": "Fresh Salmon",
+          "priceCents": 2195,
+        },
+        {
+          "name": "Turkey Steak",
+          "priceCents": 2195,
+        },
+        {
+          "name": "Chicken Fried Steak",
+          "priceCents": 2195,
+        },
+        {
+          "name": "Famous Fried Chicken",
+          "priceCents": 2195,
+        },
+      ],
+      "title": "Afternoon Specials",
+    },
+    {
+      "items": [
+        {
+          "name": "Grilled Mushrooms",
+          "priceCents": 375,
+        },
+        {
+          "name": "Sautéed Onions",
+          "priceCents": 295,
+        },
+        {
+          "name": "Fried Shrimp Side",
+          "priceCents": 595,
+        },
+        {
+          "name": "Shrimp Cocktail Upgrade",
+          "priceCents": 495,
+        },
+        {
+          "description": "Serves 2–4.",
+          "name": "Super Shrimp Cocktail",
+          "priceCents": 1495,
+        },
+      ],
+      "title": "Upgrades",
+    },
+    {
+      "items": [
+        {
+          "name": "Hamburger",
+          "priceCents": 1595,
+        },
+        {
+          "name": "Bison Burger",
+          "priceCents": 1795,
+        },
+        {
+          "name": "Turkey Burger",
+          "priceCents": 1595,
+        },
+      ],
+      "title": "Burgers",
+    },
+    {
+      "items": [
+        {
+          "name": "Chicken Caesar",
+          "priceCents": 1695,
+        },
+        {
+          "description": "Greens, feta, avocado, egg, bacon, NY strip.",
+          "name": "The Ranch House Salad",
+          "priceCents": 1995,
+        },
+      ],
+      "title": "Signature Salads",
+    },
+    {
+      "items": [
+        {
+          "name": "Birch Root Beer",
+          "priceCents": 439,
+        },
+        {
+          "name": "Sarsaparilla",
+          "priceCents": 439,
+        },
+        {
+          "name": "Old-Fashioned Cream",
+          "priceCents": 439,
+        },
+        {
+          "name": "Homemade Lemonade",
+          "priceCents": 439,
+        },
+        {
+          "name": "Raspberry Lemonade",
+          "priceCents": 439,
+        },
+        {
+          "name": "Coke & Pepsi Products",
+          "priceCents": 399,
+        },
+      ],
+      "title": "Handcrafted Sodas",
+    },
+    {
+      "items": [
+        {
+          "description": "Banana, chocolate, raspberry, coconut.",
+          "name": "World Famous Cream Pie",
+          "priceCents": 795,
+        },
+        {
+          "name": "Homemade Ice Cream",
+          "priceCents": 695,
+        },
+        {
+          "description": "Seasonal.",
+          "marketPrice": true,
+          "name": "Fresh Fruit Pie",
+        },
+        {
+          "name": "Homemade Cake",
+          "priceCents": 895,
+        },
+        {
+          "name": "Homemade Cheesecake",
+          "priceCents": 995,
+        },
+        {
+          "description": "Dairy-free.",
+          "name": "No Ice Cream Oreo Pie",
+          "priceCents": 895,
+          "tags": [
+            "GF",
+          ],
+        },
+      ],
+      "title": "Desserts",
+    },
+  ],
+  "sourceType": "html",
+}
+`;
+
+exports[`jsonld/angies.restaurant.html > matches snapshot 1`] = `
+{
+  "sections": [
+    {
+      "items": [
+        {
+          "name": "4 Jumbo Sausage Links",
+          "priceCents": 1599,
+        },
+        {
+          "name": "4 Thick Bacon Strips",
+          "priceCents": 1599,
+        },
+        {
+          "name": "Lean Ham Steak",
+          "priceCents": 1599,
+        },
+        {
+          "name": "Chicken Fried Steak",
+          "priceCents": 1699,
+        },
+        {
+          "name": "Homestyle Patty Sausage",
+          "priceCents": 1699,
+        },
+        {
+          "name": "The Sampler",
+          "priceCents": 1799,
+        },
+        {
+          "name": "12 oz New York Steak & Eggs",
+          "priceCents": 2799,
+        },
+      ],
+      "note": "2 eggs, hash browns, and toast, muffin, biscuits, or a pancake.",
+      "title": "Angie's Favorites",
+    },
+    {
+      "items": [
+        {
+          "name": "Benedict Arnold",
+          "priceCents": 1499,
+        },
+        {
+          "name": "Florentine Benedict",
+          "priceCents": 1599,
+          "tags": [
+            "V",
+          ],
+        },
+        {
+          "name": "Biscuits & Gravy",
+          "variants": [
+            {
+              "label": "plain",
+              "priceCents": 799,
+            },
+            {
+              "label": "w/ hash browns + 2 eggs",
+              "priceCents": 1499,
+            },
+          ],
+        },
+        {
+          "name": "Early Bird Special",
+          "priceCents": 899,
+        },
+        {
+          "name": "Cheesecake Waffle",
+          "priceCents": 1449,
+        },
+        {
+          "name": "Pancakes",
+          "variants": [
+            {
+              "label": "short",
+              "priceCents": 799,
+            },
+            {
+              "label": "full",
+              "priceCents": 899,
+            },
+          ],
+        },
+        {
+          "name": "Swedish Crepes",
+          "priceCents": 1399,
+        },
+      ],
+      "title": "Breakfast Classics",
+    },
+    {
+      "items": [
+        {
+          "description": "Deep-fried, with honey butter.",
+          "name": "Scone",
+          "priceCents": 699,
+        },
+        {
+          "name": "Cinnamon & Sugar Scone",
+          "priceCents": 899,
+        },
+        {
+          "name": "Cheesecake Scone",
+          "priceCents": 1399,
+        },
+      ],
+      "title": "The Scone Corner",
+    },
+    {
+      "items": [
+        {
+          "name": "Denver",
+          "priceCents": 1549,
+        },
+        {
+          "name": "Ham & Cheese",
+          "priceCents": 1499,
+        },
+        {
+          "name": "Meat Lovers",
+          "priceCents": 1699,
+        },
+        {
+          "name": "Vegetarian",
+          "priceCents": 1599,
+          "tags": [
+            "V",
+          ],
+        },
+      ],
+      "title": "Omelettes",
+    },
+    {
+      "items": [
+        {
+          "name": "Cheeseburger",
+          "variants": [
+            {
+              "label": "plain",
+              "priceCents": 1399,
+            },
+            {
+              "label": "+ bacon",
+              "priceCents": 1499,
+            },
+          ],
+        },
+        {
+          "name": "Black & Bleu Burger",
+          "priceCents": 1549,
+        },
+        {
+          "name": "California Burger",
+          "priceCents": 1549,
+        },
+        {
+          "name": "Southwest Burger",
+          "priceCents": 1549,
+        },
+        {
+          "name": "California Impossible Burger",
+          "priceCents": 1499,
+          "tags": [
+            "V",
+          ],
+        },
+      ],
+      "note": "1/2 lb angus. with potato, salad, or cup of soup.",
+      "title": "Burgers",
+    },
+    {
+      "items": [
+        {
+          "description": "Scone with chili and fixings. Side not included.",
+          "name": "Navajo Taco",
+          "priceCents": 1449,
+        },
+        {
+          "name": "French Dip",
+          "priceCents": 1399,
+        },
+        {
+          "name": "The Club",
+          "priceCents": 1399,
+        },
+        {
+          "name": "Hot Roast Beef Sandwich",
+          "priceCents": 1449,
+        },
+        {
+          "name": "Half Sandwich Combo",
+          "priceCents": 999,
+        },
+        {
+          "name": "Salad",
+          "variants": [
+            {
+              "label": "half",
+              "priceCents": 1199,
+            },
+            {
+              "label": "large",
+              "priceCents": 1449,
+            },
+          ],
+        },
+        {
+          "name": "Soup",
+          "variants": [
+            {
+              "label": "cup",
+              "priceCents": 499,
+            },
+            {
+              "label": "bowl",
+              "priceCents": 699,
+            },
+          ],
+        },
+      ],
+      "title": "Lunch Favorites",
+    },
+    {
+      "items": [
+        {
+          "name": "Chicken Fried Steak",
+          "variants": [
+            {
+              "label": "single",
+              "priceCents": 1499,
+            },
+            {
+              "label": "double",
+              "priceCents": 1949,
+            },
+          ],
+        },
+        {
+          "name": "Pot Roast",
+          "priceCents": 1999,
+        },
+        {
+          "name": "12 oz New York Steak",
+          "priceCents": 2899,
+        },
+        {
+          "name": "Steak & Shrimp",
+          "priceCents": 3199,
+        },
+        {
+          "name": "Shrimp Dinner",
+          "variants": [
+            {
+              "label": "6 pc",
+              "priceCents": 1599,
+            },
+            {
+              "label": "12 pc",
+              "priceCents": 2199,
+            },
+          ],
+        },
+      ],
+      "note": "with soup or salad, vegetables, and potato.",
+      "title": "Dinner",
+    },
+    {
+      "items": [
+        {
+          "name": "Deluxe Nachos",
+          "variants": [
+            {
+              "label": "half",
+              "priceCents": 899,
+            },
+            {
+              "label": "full",
+              "priceCents": 1399,
+            },
+          ],
+        },
+        {
+          "name": "Combo Platter",
+          "priceCents": 1799,
+        },
+        {
+          "name": "Onion Rings",
+          "priceCents": 699,
+        },
+        {
+          "name": "Chips & Salsa",
+          "priceCents": 499,
+        },
+      ],
+      "title": "Appetizers",
+    },
+    {
+      "items": [
+        {
+          "name": "Giant Shake (30 oz)",
+          "priceCents": 899,
+        },
+        {
+          "name": "Cheesecake Shake",
+          "priceCents": 999,
+        },
+        {
+          "name": "Ice Cream Sundae",
+          "priceCents": 899,
+        },
+        {
+          "description": "Clean the sink, get a bumper sticker.",
+          "name": "The Kitchen Sink",
+          "priceCents": 2499,
+        },
+        {
+          "name": "Homemade Cheesecake",
+          "variants": [
+            {
+              "label": "half slice",
+              "priceCents": 699,
+            },
+            {
+              "label": "slice",
+              "priceCents": 899,
+            },
+            {
+              "label": "whole",
+              "priceCents": 3999,
+            },
+          ],
+        },
+      ],
+      "title": "Desserts",
+    },
+    {
+      "items": [
+        {
+          "name": "Grilled Cheese",
+          "priceCents": 599,
+        },
+        {
+          "name": "Mini Corn Dogs",
+          "priceCents": 599,
+        },
+        {
+          "name": "Mac & Cheese",
+          "priceCents": 599,
+        },
+        {
+          "name": "Cheeseburger",
+          "priceCents": 649,
+        },
+        {
+          "name": "2 Piece Chicken Strips",
+          "priceCents": 699,
+        },
+      ],
+      "title": "Kids (12 & under)",
+    },
+  ],
+  "sourceType": "jsonld",
+}
+`;
+
+exports[`jsonld/maddox-drive-in.graph.html > matches snapshot 1`] = `
+{
+  "sections": [
+    {
+      "items": [
+        {
+          "name": "Hoagie Steak Sandwich",
+          "priceCents": 1395,
+        },
+        {
+          "name": "Buffalo Burger",
+          "priceCents": 1350,
+        },
+        {
+          "name": "Hamburger",
+          "priceCents": 1195,
+        },
+        {
+          "name": "Cheeseburger",
+          "priceCents": 1250,
+        },
+        {
+          "name": "Mini Cheeseburger",
+          "priceCents": 925,
+        },
+        {
+          "name": "Mini Hamburger",
+          "priceCents": 895,
+        },
+        {
+          "name": "Turkey Burger",
+          "priceCents": 950,
+        },
+        {
+          "name": "Steak Sandwich",
+          "priceCents": 1250,
+        },
+        {
+          "name": "Chicken Sandwich",
+          "priceCents": 1195,
+        },
+        {
+          "name": "Grilled Cheese",
+          "priceCents": 695,
+        },
+        {
+          "name": "Halibut Sandwich",
+          "priceCents": 1395,
+        },
+        {
+          "name": "Special Shrimp Steak Sandwich",
+          "priceCents": 1395,
+        },
+        {
+          "name": "Veggie Burger",
+          "priceCents": 1095,
+          "tags": [
+            "V",
+          ],
+        },
+        {
+          "name": "BLT",
+          "priceCents": 895,
+        },
+        {
+          "name": "Fried Shrimp Basket",
+          "priceCents": 1195,
+        },
+        {
+          "name": "Foot Long Dog",
+          "priceCents": 895,
+        },
+        {
+          "name": "Chicken Strips",
+          "priceCents": 1095,
+        },
+      ],
+      "title": "Sandwiches, Burgers & More",
+    },
+    {
+      "items": [
+        {
+          "name": "Chicken Basket",
+          "priceCents": 1275,
+        },
+        {
+          "name": "1/2 Basket",
+          "priceCents": 1025,
+        },
+        {
+          "name": "Chicken Only",
+          "variants": [
+            {
+              "label": "4 pc",
+              "priceCents": 1195,
+            },
+            {
+              "label": "8 pc",
+              "priceCents": 2195,
+            },
+            {
+              "label": "12 pc",
+              "priceCents": 3195,
+            },
+            {
+              "label": "16 pc",
+              "priceCents": 3995,
+            },
+            {
+              "label": "20 pc",
+              "priceCents": 4695,
+            },
+          ],
+        },
+      ],
+      "title": "Famous Chicken",
+    },
+    {
+      "items": [
+        {
+          "name": "Add Bacon or Mushrooms",
+          "priceCents": 100,
+        },
+        {
+          "name": "Everything Sauce (1 pint)",
+          "priceCents": 395,
+        },
+      ],
+      "title": "Enhancements",
+    },
+    {
+      "items": [
+        {
+          "name": "Tossed Green Salad",
+          "priceCents": 495,
+        },
+        {
+          "name": "Summer Slaw (half pint)",
+          "priceCents": 349,
+        },
+        {
+          "name": "Chicken Caesar",
+          "priceCents": 1295,
+        },
+        {
+          "name": "The Ranch House Salad",
+          "priceCents": 1395,
+        },
+        {
+          "name": "Seafood Salad",
+          "priceCents": 1195,
+        },
+      ],
+      "title": "Salads",
+    },
+    {
+      "items": [
+        {
+          "name": "Fresh Fruit Pie",
+          "priceCents": 695,
+        },
+        {
+          "name": "Snicker's Pie",
+          "priceCents": 650,
+        },
+        {
+          "name": "Homemade Cream Pie",
+          "priceCents": 500,
+        },
+        {
+          "name": "Snickers Pie",
+          "priceCents": 795,
+        },
+      ],
+      "title": "Pies",
+    },
+    {
+      "items": [
+        {
+          "name": "Shake",
+          "priceCents": 550,
+        },
+        {
+          "name": "Malt",
+          "priceCents": 550,
+        },
+        {
+          "name": "Sundae",
+          "priceCents": 450,
+        },
+        {
+          "name": "Banana Split",
+          "priceCents": 750,
+        },
+        {
+          "name": "Hard Cone",
+          "priceCents": 495,
+        },
+        {
+          "name": "Soft Cone",
+          "priceCents": 350,
+        },
+      ],
+      "title": "Shakes & Cones",
+    },
+    {
+      "items": [
+        {
+          "name": "Root Beer",
+          "variants": [
+            {
+              "label": "SM",
+              "priceCents": 325,
+            },
+            {
+              "label": "LG",
+              "priceCents": 375,
+            },
+          ],
+        },
+        {
+          "name": "Sarsaparilla",
+          "variants": [
+            {
+              "label": "SM",
+              "priceCents": 325,
+            },
+            {
+              "label": "LG",
+              "priceCents": 375,
+            },
+          ],
+        },
+        {
+          "name": "Cream Soda",
+          "variants": [
+            {
+              "label": "SM",
+              "priceCents": 325,
+            },
+            {
+              "label": "LG",
+              "priceCents": 375,
+            },
+          ],
+        },
+        {
+          "name": "Fresh Lime",
+          "variants": [
+            {
+              "label": "SM",
+              "priceCents": 325,
+            },
+            {
+              "label": "LG",
+              "priceCents": 375,
+            },
+          ],
+        },
+        {
+          "name": "Coke & Pepsi",
+          "variants": [
+            {
+              "label": "SM",
+              "priceCents": 295,
+            },
+            {
+              "label": "LG",
+              "priceCents": 350,
+            },
+          ],
+        },
+      ],
+      "title": "Homemade Sodas",
+    },
+    {
+      "items": [
+        {
+          "name": "Seafood Cocktail",
+          "variants": [
+            {
+              "label": "SM",
+              "priceCents": 350,
+            },
+            {
+              "label": "LG",
+              "priceCents": 700,
+            },
+          ],
+        },
+        {
+          "name": "Baked Potato",
+          "priceCents": 275,
+        },
+        {
+          "name": "Mashed Potato",
+          "priceCents": 295,
+        },
+        {
+          "name": "Onion Rings",
+          "priceCents": 475,
+        },
+        {
+          "name": "Fries",
+          "priceCents": 250,
+        },
+      ],
+      "title": "Sides",
+    },
+  ],
+  "sourceType": "jsonld",
+}
+`;
+
+exports[`jsonld/maddox-ranch-house.menu.html > matches snapshot 1`] = `
+{
+  "sections": [
+    {
+      "items": [
+        {
+          "description": "Center-cut tenderloin, never bacon-wrapped.",
+          "name": "Filet Mignon",
+          "variants": [
+            {
+              "label": "6 oz",
+              "priceCents": 3295,
+            },
+            {
+              "label": "10 oz",
+              "priceCents": 3995,
+            },
+          ],
+        },
+        {
+          "description": "14 oz, marinated in a spicy blend.",
+          "name": "Spicy Sirloin",
+          "priceCents": 3095,
+        },
+        {
+          "description": "24 oz, hand-sawn.",
+          "name": "T-Bone",
+          "priceCents": 3895,
+        },
+        {
+          "description": "18 oz.",
+          "name": "#18 New York",
+          "priceCents": 3695,
+        },
+        {
+          "description": "16 oz, boneless.",
+          "name": "#16 Ribeye",
+          "priceCents": 3795,
+        },
+        {
+          "description": "Top sirloin coulotte.",
+          "name": "Maddox Sirloin",
+          "variants": [
+            {
+              "label": "7 oz",
+              "priceCents": 2495,
+            },
+            {
+              "label": "14 oz",
+              "priceCents": 2995,
+            },
+          ],
+        },
+        {
+          "description": "2 lb, limited availability.",
+          "marketPrice": true,
+          "name": "Porterhouse",
+        },
+        {
+          "description": "Available after 3pm, with au jus.",
+          "name": "Prime Rib",
+          "variants": [
+            {
+              "label": "12 oz",
+              "priceCents": 3395,
+            },
+            {
+              "label": "16 oz",
+              "priceCents": 3995,
+            },
+          ],
+        },
+        {
+          "description": "Creamy au poivre.",
+          "name": "House Steak Sauce",
+          "priceCents": 300,
+        },
+      ],
+      "title": "World Famous Steaks",
+    },
+    {
+      "items": [
+        {
+          "description": "Limited availability.",
+          "name": "Bison New York",
+          "priceCents": 3495,
+        },
+        {
+          "description": "With country gravy.",
+          "name": "Bison Chicken Fried Steak",
+          "priceCents": 2695,
+        },
+        {
+          "marketPrice": true,
+          "name": "Bison Ribeye",
+        },
+      ],
+      "title": "American Bison",
+    },
+    {
+      "items": [
+        {
+          "description": "Original skinless recipe. Breast, thigh, leg & wing.",
+          "name": "Famous Fried Chicken",
+          "priceCents": 2495,
+        },
+        {
+          "description": "With house tartar sauce.",
+          "name": "Turkey Steak",
+          "priceCents": 2495,
+        },
+        {
+          "description": "Country gravy on the side.",
+          "name": "Chicken Fried Steak",
+          "priceCents": 2495,
+        },
+        {
+          "description": "Creamy peppercorn sauce.",
+          "name": "Tenderloin Medallions",
+          "priceCents": 3095,
+        },
+        {
+          "description": "After 4pm, limited.",
+          "name": "Braised Beef Short Ribs",
+          "priceCents": 2695,
+        },
+        {
+          "description": "12 oz, sautéed onions.",
+          "name": "Ground Beef Steak",
+          "priceCents": 2495,
+        },
+        {
+          "description": "Chimichurri.",
+          "name": "Cauliflower Steak",
+          "priceCents": 2295,
+          "tags": [
+            "VG",
+          ],
+        },
+        {
+          "description": "Wild shrimp, panko-breaded.",
+          "name": "Shrimp Steak",
+          "priceCents": 2695,
+        },
+      ],
+      "title": "Local Favorites",
+    },
+    {
+      "items": [
+        {
+          "name": "Wild Pacific Halibut",
+          "priceCents": 3795,
+        },
+        {
+          "name": "Fresh Salmon",
+          "priceCents": 2695,
+        },
+        {
+          "name": "Fried Shrimp",
+          "priceCents": 2695,
+        },
+        {
+          "name": "Rainbow Trout",
+          "priceCents": 2695,
+        },
+      ],
+      "title": "Premium Seafood",
+    },
+    {
+      "items": [
+        {
+          "description": "Chicken breast, turkey steak, chicken fried steak.",
+          "name": "Taste of Maddox",
+          "priceCents": 2695,
+        },
+        {
+          "description": "Filet, fried shrimp, chicken breast.",
+          "name": "Top of Maddox",
+          "priceCents": 3795,
+        },
+        {
+          "description": "12 oz New York + fried shrimp.",
+          "name": "Steak & Shrimp",
+          "priceCents": 3195,
+        },
+        {
+          "description": "Shrimp steak + fried shrimp.",
+          "name": "Shrimp Lovers",
+          "priceCents": 2895,
+        },
+      ],
+      "title": "Combinations",
+    },
+    {
+      "items": [
+        {
+          "name": "Santa Maria Tri-Tip",
+          "priceCents": 2195,
+        },
+        {
+          "name": "Fresh Salmon",
+          "priceCents": 2195,
+        },
+        {
+          "name": "Turkey Steak",
+          "priceCents": 2195,
+        },
+        {
+          "name": "Chicken Fried Steak",
+          "priceCents": 2195,
+        },
+        {
+          "name": "Famous Fried Chicken",
+          "priceCents": 2195,
+        },
+      ],
+      "note": "tue–fri, 3–5pm. includes cream pie.",
+      "title": "Afternoon Specials",
+    },
+    {
+      "items": [
+        {
+          "name": "Grilled Mushrooms",
+          "priceCents": 375,
+        },
+        {
+          "name": "Sautéed Onions",
+          "priceCents": 295,
+        },
+        {
+          "name": "Fried Shrimp Side",
+          "priceCents": 595,
+        },
+        {
+          "name": "Shrimp Cocktail Upgrade",
+          "priceCents": 495,
+        },
+        {
+          "description": "Serves 2–4.",
+          "name": "Super Shrimp Cocktail",
+          "priceCents": 1495,
+        },
+      ],
+      "title": "Upgrades",
+    },
+    {
+      "items": [
+        {
+          "name": "Hamburger",
+          "priceCents": 1595,
+        },
+        {
+          "name": "Bison Burger",
+          "priceCents": 1795,
+        },
+        {
+          "name": "Turkey Burger",
+          "priceCents": 1595,
+        },
+      ],
+      "note": "with fries, soup, salad, or seafood cocktail. add cheese $0.95.",
+      "title": "Burgers",
+    },
+    {
+      "items": [
+        {
+          "name": "Chicken Caesar",
+          "priceCents": 1695,
+        },
+        {
+          "description": "Greens, feta, avocado, egg, bacon, NY strip.",
+          "name": "The Ranch House Salad",
+          "priceCents": 1995,
+        },
+      ],
+      "title": "Signature Salads",
+    },
+    {
+      "items": [
+        {
+          "name": "Birch Root Beer",
+          "priceCents": 439,
+        },
+        {
+          "name": "Sarsaparilla",
+          "priceCents": 439,
+        },
+        {
+          "name": "Old-Fashioned Cream",
+          "priceCents": 439,
+        },
+        {
+          "name": "Homemade Lemonade",
+          "priceCents": 439,
+        },
+        {
+          "name": "Raspberry Lemonade",
+          "priceCents": 439,
+        },
+        {
+          "name": "Coke & Pepsi Products",
+          "priceCents": 399,
+        },
+      ],
+      "title": "Handcrafted Sodas",
+    },
+    {
+      "items": [
+        {
+          "description": "Banana, chocolate, raspberry, coconut.",
+          "name": "World Famous Cream Pie",
+          "priceCents": 795,
+        },
+        {
+          "name": "Homemade Ice Cream",
+          "priceCents": 695,
+        },
+        {
+          "description": "Seasonal.",
+          "marketPrice": true,
+          "name": "Fresh Fruit Pie",
+        },
+        {
+          "name": "Homemade Cake",
+          "priceCents": 895,
+        },
+        {
+          "name": "Homemade Cheesecake",
+          "priceCents": 995,
+        },
+        {
+          "description": "Dairy-free.",
+          "name": "No Ice Cream Oreo Pie",
+          "priceCents": 895,
+          "tags": [
+            "GF",
+          ],
+        },
+      ],
+      "title": "Desserts",
+    },
+  ],
+  "sourceType": "jsonld",
+}
+`;
+
+exports[`pdf/angies.pdf > matches snapshot 1`] = `
+{
+  "sections": [
+    {
+      "items": [
+        {
+          "name": "4 Jumbo Sausage Links",
+          "priceCents": 1599,
+        },
+        {
+          "name": "4 Thick Bacon Strips",
+          "priceCents": 1599,
+        },
+        {
+          "name": "Lean Ham Steak",
+          "priceCents": 1599,
+        },
+        {
+          "name": "Chicken Fried Steak",
+          "priceCents": 1699,
+        },
+        {
+          "name": "Homestyle Patty Sausage",
+          "priceCents": 1699,
+        },
+        {
+          "name": "The Sampler",
+          "priceCents": 1799,
+        },
+        {
+          "name": "12 oz New York Steak & Eggs",
+          "priceCents": 2799,
+        },
+      ],
+      "note": "2 eggs, hash browns, and toast, muffin, biscuits, or a pancake.",
+      "title": "Angie's Favorites",
+    },
+    {
+      "items": [
+        {
+          "name": "Benedict Arnold",
+          "priceCents": 1499,
+        },
+        {
+          "name": "Florentine Benedict",
+          "priceCents": 1599,
+          "tags": [
+            "V",
+          ],
+        },
+        {
+          "name": "Biscuits & Gravy",
+          "variants": [
+            {
+              "label": "plain",
+              "priceCents": 799,
+            },
+            {
+              "label": "w/ hash browns + 2 eggs",
+              "priceCents": 1499,
+            },
+          ],
+        },
+        {
+          "name": "Early Bird Special",
+          "priceCents": 899,
+        },
+        {
+          "name": "Cheesecake Waffle",
+          "priceCents": 1449,
+        },
+        {
+          "name": "Pancakes",
+          "variants": [
+            {
+              "label": "short",
+              "priceCents": 799,
+            },
+            {
+              "label": "full",
+              "priceCents": 899,
+            },
+          ],
+        },
+        {
+          "name": "Swedish Crepes",
+          "priceCents": 1399,
+        },
+      ],
+      "title": "Breakfast Classics",
+    },
+    {
+      "items": [
+        {
+          "description": "Deep-fried, with honey butter.",
+          "name": "Scone",
+          "priceCents": 699,
+        },
+        {
+          "name": "Cinnamon & Sugar Scone",
+          "priceCents": 899,
+        },
+        {
+          "name": "Cheesecake Scone",
+          "priceCents": 1399,
+        },
+      ],
+      "title": "The Scone Corner",
+    },
+    {
+      "items": [
+        {
+          "name": "Denver",
+          "priceCents": 1549,
+        },
+        {
+          "name": "Ham & Cheese",
+          "priceCents": 1499,
+        },
+        {
+          "name": "Meat Lovers",
+          "priceCents": 1699,
+        },
+        {
+          "name": "Vegetarian",
+          "priceCents": 1599,
+          "tags": [
+            "V",
+          ],
+        },
+      ],
+      "title": "Omelettes",
+    },
+    {
+      "items": [
+        {
+          "name": "Cheeseburger",
+          "variants": [
+            {
+              "label": "plain",
+              "priceCents": 1399,
+            },
+            {
+              "label": "+ bacon",
+              "priceCents": 1499,
+            },
+          ],
+        },
+        {
+          "name": "Black & Bleu Burger",
+          "priceCents": 1549,
+        },
+        {
+          "name": "California Burger",
+          "priceCents": 1549,
+        },
+        {
+          "name": "Southwest Burger",
+          "priceCents": 1549,
+        },
+        {
+          "name": "California Impossible Burger",
+          "priceCents": 1499,
+          "tags": [
+            "V",
+          ],
+        },
+      ],
+      "note": "1/2 lb angus. with potato, salad, or cup of soup.",
+      "title": "Burgers",
+    },
+    {
+      "items": [
+        {
+          "description": "Scone with chili and fixings. Side not included.",
+          "name": "Navajo Taco",
+          "priceCents": 1449,
+        },
+        {
+          "name": "French Dip",
+          "priceCents": 1399,
+        },
+        {
+          "name": "The Club",
+          "priceCents": 1399,
+        },
+        {
+          "name": "Hot Roast Beef Sandwich",
+          "priceCents": 1449,
+        },
+        {
+          "name": "Half Sandwich Combo",
+          "priceCents": 999,
+        },
+        {
+          "name": "Salad",
+          "variants": [
+            {
+              "label": "half",
+              "priceCents": 1199,
+            },
+            {
+              "label": "large",
+              "priceCents": 1449,
+            },
+          ],
+        },
+        {
+          "name": "Soup",
+          "variants": [
+            {
+              "label": "cup",
+              "priceCents": 499,
+            },
+            {
+              "label": "bowl",
+              "priceCents": 699,
+            },
+          ],
+        },
+      ],
+      "title": "Lunch Favorites",
+    },
+    {
+      "items": [
+        {
+          "name": "Chicken Fried Steak",
+          "variants": [
+            {
+              "label": "single",
+              "priceCents": 1499,
+            },
+            {
+              "label": "double",
+              "priceCents": 1949,
+            },
+          ],
+        },
+        {
+          "name": "Pot Roast",
+          "priceCents": 1999,
+        },
+        {
+          "name": "12 oz New York Steak",
+          "priceCents": 2899,
+        },
+        {
+          "name": "Steak & Shrimp",
+          "priceCents": 3199,
+        },
+        {
+          "name": "Shrimp Dinner",
+          "variants": [
+            {
+              "label": "6 pc",
+              "priceCents": 1599,
+            },
+            {
+              "label": "12 pc",
+              "priceCents": 2199,
+            },
+          ],
+        },
+      ],
+      "note": "with soup or salad, vegetables, and potato.",
+      "title": "Dinner",
+    },
+    {
+      "items": [
+        {
+          "name": "Deluxe Nachos",
+          "variants": [
+            {
+              "label": "half",
+              "priceCents": 899,
+            },
+            {
+              "label": "full",
+              "priceCents": 1399,
+            },
+          ],
+        },
+        {
+          "name": "Combo Platter",
+          "priceCents": 1799,
+        },
+        {
+          "name": "Onion Rings",
+          "priceCents": 699,
+        },
+        {
+          "name": "Chips & Salsa",
+          "priceCents": 499,
+        },
+      ],
+      "title": "Appetizers",
+    },
+    {
+      "items": [
+        {
+          "name": "Giant Shake (30 oz)",
+          "priceCents": 899,
+        },
+        {
+          "name": "Cheesecake Shake",
+          "priceCents": 999,
+        },
+        {
+          "name": "Ice Cream Sundae",
+          "priceCents": 899,
+        },
+        {
+          "description": "Clean the sink, get a bumper sticker.",
+          "name": "The Kitchen Sink",
+          "priceCents": 2499,
+        },
+        {
+          "name": "Homemade Cheesecake",
+          "variants": [
+            {
+              "label": "half slice",
+              "priceCents": 699,
+            },
+            {
+              "label": "slice",
+              "priceCents": 899,
+            },
+            {
+              "label": "whole",
+              "priceCents": 3999,
+            },
+          ],
+        },
+      ],
+      "title": "Desserts",
+    },
+    {
+      "items": [
+        {
+          "name": "Grilled Cheese",
+          "priceCents": 599,
+        },
+        {
+          "name": "Mini Corn Dogs",
+          "priceCents": 599,
+        },
+        {
+          "name": "Mac & Cheese",
+          "priceCents": 599,
+        },
+        {
+          "name": "Cheeseburger",
+          "priceCents": 649,
+        },
+        {
+          "name": "2 Piece Chicken Strips",
+          "priceCents": 699,
+        },
+      ],
+      "title": "Kids (12 & under)",
+    },
+  ],
+  "sourceType": "pdf",
+}
+`;
+
+exports[`pdf/maddox-drive-in.pdf > matches snapshot 1`] = `
+{
+  "sections": [
+    {
+      "items": [
+        {
+          "name": "Hoagie Steak Sandwich",
+          "priceCents": 1395,
+        },
+        {
+          "name": "Buffalo Burger",
+          "priceCents": 1350,
+        },
+        {
+          "name": "Hamburger",
+          "priceCents": 1195,
+        },
+        {
+          "name": "Cheeseburger",
+          "priceCents": 1250,
+        },
+        {
+          "name": "Mini Cheeseburger",
+          "priceCents": 925,
+        },
+        {
+          "name": "Mini Hamburger",
+          "priceCents": 895,
+        },
+        {
+          "name": "Turkey Burger",
+          "priceCents": 950,
+        },
+        {
+          "name": "Steak Sandwich",
+          "priceCents": 1250,
+        },
+        {
+          "name": "Chicken Sandwich",
+          "priceCents": 1195,
+        },
+        {
+          "name": "Grilled Cheese",
+          "priceCents": 695,
+        },
+        {
+          "name": "Halibut Sandwich",
+          "priceCents": 1395,
+        },
+        {
+          "name": "Special Shrimp Steak Sandwich",
+          "priceCents": 1395,
+        },
+        {
+          "name": "Veggie Burger",
+          "priceCents": 1095,
+          "tags": [
+            "V",
+          ],
+        },
+        {
+          "name": "BLT",
+          "priceCents": 895,
+        },
+        {
+          "name": "Fried Shrimp Basket",
+          "priceCents": 1195,
+        },
+        {
+          "name": "Foot Long Dog",
+          "priceCents": 895,
+        },
+        {
+          "name": "Chicken Strips",
+          "priceCents": 1095,
+        },
+      ],
+      "title": "Sandwiches, Burgers & More",
+    },
+    {
+      "items": [
+        {
+          "name": "Chicken Basket",
+          "priceCents": 1275,
+        },
+        {
+          "name": "1/2 Basket",
+          "priceCents": 1025,
+        },
+        {
+          "name": "Chicken Only",
+          "variants": [
+            {
+              "label": "4 pc",
+              "priceCents": 1195,
+            },
+            {
+              "label": "8 pc",
+              "priceCents": 2195,
+            },
+            {
+              "label": "12 pc",
+              "priceCents": 3195,
+            },
+            {
+              "label": "16 pc",
+              "priceCents": 3995,
+            },
+            {
+              "label": "20 pc",
+              "priceCents": 4695,
+            },
+          ],
+        },
+      ],
+      "title": "Famous Chicken",
+    },
+    {
+      "items": [
+        {
+          "name": "Add Bacon or Mushrooms",
+          "priceCents": 100,
+        },
+        {
+          "name": "Everything Sauce (1 pint)",
+          "priceCents": 395,
+        },
+      ],
+      "title": "Enhancements",
+    },
+    {
+      "items": [
+        {
+          "name": "Tossed Green Salad",
+          "priceCents": 495,
+        },
+        {
+          "name": "Summer Slaw (half pint)",
+          "priceCents": 349,
+        },
+        {
+          "name": "Chicken Caesar",
+          "priceCents": 1295,
+        },
+        {
+          "name": "The Ranch House Salad",
+          "priceCents": 1395,
+        },
+        {
+          "name": "Seafood Salad",
+          "priceCents": 1195,
+        },
+      ],
+      "title": "Salads",
+    },
+    {
+      "items": [
+        {
+          "name": "Fresh Fruit Pie",
+          "priceCents": 695,
+        },
+        {
+          "name": "Snicker's Pie",
+          "priceCents": 650,
+        },
+        {
+          "name": "Homemade Cream Pie",
+          "priceCents": 500,
+        },
+        {
+          "name": "Snickers Pie",
+          "priceCents": 795,
+        },
+      ],
+      "title": "Pies",
+    },
+    {
+      "items": [
+        {
+          "name": "Shake",
+          "priceCents": 550,
+        },
+        {
+          "name": "Malt",
+          "priceCents": 550,
+        },
+        {
+          "name": "Sundae",
+          "priceCents": 450,
+        },
+        {
+          "name": "Banana Split",
+          "priceCents": 750,
+        },
+        {
+          "name": "Hard Cone",
+          "priceCents": 495,
+        },
+        {
+          "name": "Soft Cone",
+          "priceCents": 350,
+        },
+      ],
+      "title": "Shakes & Cones",
+    },
+    {
+      "items": [
+        {
+          "name": "Root Beer",
+          "variants": [
+            {
+              "label": "SM",
+              "priceCents": 325,
+            },
+            {
+              "label": "LG",
+              "priceCents": 375,
+            },
+          ],
+        },
+        {
+          "name": "Sarsaparilla",
+          "variants": [
+            {
+              "label": "SM",
+              "priceCents": 325,
+            },
+            {
+              "label": "LG",
+              "priceCents": 375,
+            },
+          ],
+        },
+        {
+          "name": "Cream Soda",
+          "variants": [
+            {
+              "label": "SM",
+              "priceCents": 325,
+            },
+            {
+              "label": "LG",
+              "priceCents": 375,
+            },
+          ],
+        },
+        {
+          "name": "Fresh Lime",
+          "variants": [
+            {
+              "label": "SM",
+              "priceCents": 325,
+            },
+            {
+              "label": "LG",
+              "priceCents": 375,
+            },
+          ],
+        },
+        {
+          "name": "Coke & Pepsi",
+          "variants": [
+            {
+              "label": "SM",
+              "priceCents": 295,
+            },
+            {
+              "label": "LG",
+              "priceCents": 350,
+            },
+          ],
+        },
+      ],
+      "title": "Homemade Sodas",
+    },
+    {
+      "items": [
+        {
+          "name": "Seafood Cocktail",
+          "variants": [
+            {
+              "label": "SM",
+              "priceCents": 350,
+            },
+            {
+              "label": "LG",
+              "priceCents": 700,
+            },
+          ],
+        },
+        {
+          "name": "Baked Potato",
+          "priceCents": 275,
+        },
+        {
+          "name": "Mashed Potato",
+          "priceCents": 295,
+        },
+        {
+          "name": "Onion Rings",
+          "priceCents": 475,
+        },
+        {
+          "name": "Fries",
+          "priceCents": 250,
+        },
+      ],
+      "title": "Sides",
+    },
+  ],
+  "sourceType": "pdf",
+}
+`;
+
+exports[`pdf/maddox-ranch-house.pdf > matches snapshot 1`] = `
+{
+  "sections": [
+    {
+      "items": [
+        {
+          "description": "Center-cut tenderloin, never bacon-wrapped.",
+          "name": "Filet Mignon",
+          "variants": [
+            {
+              "label": "6 oz",
+              "priceCents": 3295,
+            },
+            {
+              "label": "10 oz",
+              "priceCents": 3995,
+            },
+          ],
+        },
+        {
+          "description": "14 oz, marinated in a spicy blend.",
+          "name": "Spicy Sirloin",
+          "priceCents": 3095,
+        },
+        {
+          "description": "24 oz, hand-sawn.",
+          "name": "T-Bone",
+          "priceCents": 3895,
+        },
+        {
+          "description": "18 oz.",
+          "name": "#18 New York",
+          "priceCents": 3695,
+        },
+        {
+          "description": "16 oz, boneless.",
+          "name": "#16 Ribeye",
+          "priceCents": 3795,
+        },
+        {
+          "description": "Top sirloin coulotte.",
+          "name": "Maddox Sirloin",
+          "variants": [
+            {
+              "label": "7 oz",
+              "priceCents": 2495,
+            },
+            {
+              "label": "14 oz",
+              "priceCents": 2995,
+            },
+          ],
+        },
+        {
+          "description": "2 lb, limited availability.",
+          "marketPrice": true,
+          "name": "Porterhouse",
+        },
+        {
+          "description": "Available after 3pm, with au jus.",
+          "name": "Prime Rib",
+          "variants": [
+            {
+              "label": "12 oz",
+              "priceCents": 3395,
+            },
+            {
+              "label": "16 oz",
+              "priceCents": 3995,
+            },
+          ],
+        },
+        {
+          "description": "Creamy au poivre.",
+          "name": "House Steak Sauce",
+          "priceCents": 300,
+        },
+      ],
+      "title": "World Famous Steaks",
+    },
+    {
+      "items": [
+        {
+          "description": "Limited availability.",
+          "name": "Bison New York",
+          "priceCents": 3495,
+        },
+        {
+          "description": "With country gravy.",
+          "name": "Bison Chicken Fried Steak",
+          "priceCents": 2695,
+        },
+        {
+          "marketPrice": true,
+          "name": "Bison Ribeye",
+        },
+      ],
+      "title": "American Bison",
+    },
+    {
+      "items": [
+        {
+          "description": "Original skinless recipe. Breast, thigh, leg & wing.",
+          "name": "Famous Fried Chicken",
+          "priceCents": 2495,
+        },
+        {
+          "description": "With house tartar sauce.",
+          "name": "Turkey Steak",
+          "priceCents": 2495,
+        },
+        {
+          "description": "Country gravy on the side.",
+          "name": "Chicken Fried Steak",
+          "priceCents": 2495,
+        },
+        {
+          "description": "Creamy peppercorn sauce.",
+          "name": "Tenderloin Medallions",
+          "priceCents": 3095,
+        },
+        {
+          "description": "After 4pm, limited.",
+          "name": "Braised Beef Short Ribs",
+          "priceCents": 2695,
+        },
+        {
+          "description": "12 oz, sauteed onions.",
+          "name": "Ground Beef Steak",
+          "priceCents": 2495,
+        },
+        {
+          "description": "Chimichurri.",
+          "name": "Cauliflower Steak",
+          "priceCents": 2295,
+          "tags": [
+            "VG",
+          ],
+        },
+        {
+          "description": "Wild shrimp, panko-breaded.",
+          "name": "Shrimp Steak",
+          "priceCents": 2695,
+        },
+      ],
+      "title": "Local Favorites",
+    },
+    {
+      "items": [
+        {
+          "name": "Wild Pacific Halibut",
+          "priceCents": 3795,
+        },
+        {
+          "name": "Fresh Salmon",
+          "priceCents": 2695,
+        },
+        {
+          "name": "Fried Shrimp",
+          "priceCents": 2695,
+        },
+        {
+          "name": "Rainbow Trout",
+          "priceCents": 2695,
+        },
+      ],
+      "title": "Premium Seafood",
+    },
+    {
+      "items": [
+        {
+          "description": "Chicken breast, turkey steak, chicken fried steak.",
+          "name": "Taste of Maddox",
+          "priceCents": 2695,
+        },
+        {
+          "description": "Filet, fried shrimp, chicken breast.",
+          "name": "Top of Maddox",
+          "priceCents": 3795,
+        },
+        {
+          "description": "12 oz New York + fried shrimp.",
+          "name": "Steak & Shrimp",
+          "priceCents": 3195,
+        },
+        {
+          "description": "Shrimp steak + fried shrimp.",
+          "name": "Shrimp Lovers",
+          "priceCents": 2895,
+        },
+      ],
+      "title": "Combinations",
+    },
+    {
+      "items": [
+        {
+          "name": "Santa Maria Tri-Tip",
+          "priceCents": 2195,
+        },
+        {
+          "name": "Fresh Salmon",
+          "priceCents": 2195,
+        },
+        {
+          "name": "Turkey Steak",
+          "priceCents": 2195,
+        },
+        {
+          "name": "Chicken Fried Steak",
+          "priceCents": 2195,
+        },
+        {
+          "name": "Famous Fried Chicken",
+          "priceCents": 2195,
+        },
+      ],
+      "note": "tue-fri, 3-5pm. includes cream pie.",
+      "title": "Afternoon Specials",
+    },
+    {
+      "items": [
+        {
+          "name": "Grilled Mushrooms",
+          "priceCents": 375,
+        },
+        {
+          "name": "Sauteed Onions",
+          "priceCents": 295,
+        },
+        {
+          "name": "Fried Shrimp Side",
+          "priceCents": 595,
+        },
+        {
+          "name": "Shrimp Cocktail Upgrade",
+          "priceCents": 495,
+        },
+        {
+          "description": "Serves 2-4.",
+          "name": "Super Shrimp Cocktail",
+          "priceCents": 1495,
+        },
+      ],
+      "title": "Upgrades",
+    },
+    {
+      "items": [
+        {
+          "name": "Hamburger",
+          "priceCents": 1595,
+        },
+        {
+          "name": "Bison Burger",
+          "priceCents": 1795,
+        },
+        {
+          "name": "Turkey Burger",
+          "priceCents": 1595,
+        },
+      ],
+      "note": "with fries, soup, salad, or seafood cocktail. add cheese $0.95.",
+      "title": "Burgers",
+    },
+    {
+      "items": [
+        {
+          "name": "Chicken Caesar",
+          "priceCents": 1695,
+        },
+        {
+          "description": "Greens, feta, avocado, egg, bacon, NY strip.",
+          "name": "The Ranch House Salad",
+          "priceCents": 1995,
+        },
+      ],
+      "title": "Signature Salads",
+    },
+    {
+      "items": [
+        {
+          "name": "Birch Root Beer",
+          "priceCents": 439,
+        },
+        {
+          "name": "Sarsaparilla",
+          "priceCents": 439,
+        },
+        {
+          "name": "Old-Fashioned Cream",
+          "priceCents": 439,
+        },
+        {
+          "name": "Homemade Lemonade",
+          "priceCents": 439,
+        },
+        {
+          "name": "Raspberry Lemonade",
+          "priceCents": 439,
+        },
+        {
+          "name": "Coke & Pepsi Products",
+          "priceCents": 399,
+        },
+      ],
+      "title": "Handcrafted Sodas",
+    },
+    {
+      "items": [
+        {
+          "description": "Banana, chocolate, raspberry, coconut.",
+          "name": "World Famous Cream Pie",
+          "priceCents": 795,
+        },
+        {
+          "name": "Homemade Ice Cream",
+          "priceCents": 695,
+        },
+        {
+          "description": "Seasonal.",
+          "marketPrice": true,
+          "name": "Fresh Fruit Pie",
+        },
+        {
+          "name": "Homemade Cake",
+          "priceCents": 895,
+        },
+        {
+          "name": "Homemade Cheesecake",
+          "priceCents": 995,
+        },
+        {
+          "description": "Dairy-free.",
+          "name": "No Ice Cream Oreo Pie",
+          "priceCents": 895,
+          "tags": [
+            "GF",
+          ],
+        },
+      ],
+      "title": "Desserts",
+    },
+  ],
+  "sourceType": "pdf",
+}
+`;

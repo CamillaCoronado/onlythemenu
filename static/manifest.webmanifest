@@ -1,0 +1,3 @@
+{ "name": "onlythemenu", "short_name": "onlythemenu", "start_url": "/", "display": "standalone",
+  "background_color": "#FFF6E0", "theme_color": "#F4B400",
+  "icons": [{ "src": "/favicon.svg", "sizes": "any", "type": "image/svg+xml" }] }

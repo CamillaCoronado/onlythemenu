@@ -1,0 +1,20 @@
+name: ci
+on: [pull_request, push]
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 20, cache: npm }
+      - run: npm ci
+      - run: npm run guard
+      - run: npm run check
+      - run: npm test
+      - run: npm run build
+      - run: npx playwright install --with-deps chromium
+      # e2e: menu js < 50 KB gz, sticky titles, find, report, search < 50 ms, axe AA
+      - run: |
+          npx vite preview --port 4173 &
+          npx wait-on -t 30000 http://localhost:4173
+          node tests/e2e.mjs http://localhost:4173

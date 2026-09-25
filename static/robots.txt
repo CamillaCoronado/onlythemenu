@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /admin
+Disallow: /owner
+Disallow: /api
+Sitemap: https://onlythemenu.com/sitemap.xml
