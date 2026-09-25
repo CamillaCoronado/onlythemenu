@@ -18,6 +18,9 @@
     "import:overture": "tsx pipeline/import-overture.ts",
     "guard": "node scripts/guard.mjs"
   },
+  "overrides": {
+    "jose": "^4.15.9"
+  },
   "devDependencies": {
     "@axe-core/playwright": "^4.13.0",
     "@duckdb/node-api": "^1.5.5-r.5",

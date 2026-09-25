@@ -49,6 +49,7 @@ seed/                          the 3 real menus from the brief
 - **Owner edits** skip the change-vs-last rules (owners know their prices) but still hit the absolute ones (price range, empty sections, ≥3 items).
 - **Price reports**: 2 matching reports within 14 days auto-apply, unless the jump is more than 25% (the same rule as the pipeline). Anything else goes to `/admin/review`, grouped per item.
 - **Claims** are never auto-granted. An admin approves after calling the restaurant's listed number.
+- **`jose` is pinned to v4 by an `overrides` entry.** `firebase-admin` → `jwks-rsa@4` is CommonJS and `require()`s `jose`, but `jose@6` is ESM-only. Vercel's function loader has no `require(esm)` support, so every route 500s without the pin. jwks-rsa only uses `importJWK`, `exportSPKI`, `decodeJwt`, `decodeProtectedHeader`, all unchanged in v4. Remove the pin only once jwks-rsa ships ESM.
 
 ## known gaps
 
