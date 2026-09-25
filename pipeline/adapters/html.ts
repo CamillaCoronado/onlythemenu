@@ -22,10 +22,39 @@ function isPriceText(t: string): boolean {
     || splitVariants(s) !== null;
 }
 
+/**
+ * many menus end the description with the price ("…served with house tartar sauce. $28.95")
+ * instead of giving it its own element. move that trailing price into a sibling node so the
+ * price-leaf walk below finds it and the description stops carrying it.
+ */
+function splitTrailingPrices($: cheerio.CheerioAPI, root: cheerio.Cheerio<AnyNode>): void {
+  root.find('*').each((_, el) => {
+    const $el = $(el);
+    if ($el.children().length) return;
+    const text = collapse($el.text());
+    if (!text || isPriceText(text)) return;
+
+    // exactly one price, at the very end. anything else may be a variant row
+    // ("4 pc $11.95, 8 pc $21.95"), where splitting would drop every price but the last.
+    const hits = [...text.matchAll(PRICE_IN_TEXT)];
+    if (hits.length !== 1) return;
+    const [hit] = hits;
+    if (hit.index! + hit[0].length !== text.length) return;
+
+    const head = collapse(text.slice(0, hit.index!)).replace(/[\s.·–—-]+$/, '');
+    if (!/[a-z]/i.test(head)) return;
+
+    // nested, not a sibling: the element itself is the repeating unit the item walk keys on
+    $el.text(head + ' ');
+    $el.append(`<span>${hit[0]}</span>`);
+  });
+}
+
 export function parseHtml(html: string): Section[] {
   const $ = cheerio.load(html);
   $(SKIP).remove();
   const root = $('main').first().length ? $('main').first() : $('body');
+  splitTrailingPrices($, root);
 
   // 1. price-bearing leaf elements
   const priceEls: Element[] = [];
@@ -71,7 +100,7 @@ export function parseHtml(html: string): Section[] {
     const priceText = items.get(node)!.map((p) => collapse($(p).text())).join(' ');
     // remove price leaves from the clone
     $n.find('*').filter((_, e) => $(e).children().length === 0 && isPriceText($(e).text())).remove();
-    const nameEl = $n.find('h3,h4,h5,h6,strong,b,[class*="name"],[class*="title"]').first();
+    const nameEl = $n.find('h2,h3,h4,h5,h6,strong,b,[class*="name"],[class*="title"]').first();
     let name = nameEl.length ? collapse(nameEl.text()) : '';
     if (nameEl.length) nameEl.remove();
     const rest = collapse($n.text().replace(PRICE_IN_TEXT, ' '));
