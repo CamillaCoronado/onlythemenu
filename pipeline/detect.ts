@@ -3,11 +3,16 @@ import type { SourceType } from '../src/lib/types';
 import { findMenus, jsonLdBlocks } from './adapters/jsonld';
 import type { Fetched } from './types';
 
+/**
+ * `sig` must be the platform's own app state, never a mention of its domain: a restaurant's
+ * menu page linking to "order on toast" is still the restaurant's page, and matching the bare
+ * domain sent those to the platform adapter instead of parsing the html sitting right there.
+ */
 const PLATFORMS: { type: SourceType; hosts: RegExp; sig: RegExp }[] = [
-  { type: 'toast', hosts: /(^|\.)toasttab\.com$/, sig: /toasttab\.com|__TOAST_|window\.__OO_STATE__/ },
-  { type: 'square', hosts: /(^|\.)square\.site$|(^|\.)squareup\.com$/, sig: /square\.site|squarecdn\.com|__BOOTSTRAP_STATE__/ },
-  { type: 'chownow', hosts: /(^|\.)chownow\.com$/, sig: /chownow\.com|cn-ordering/ },
-  { type: 'clover', hosts: /(^|\.)clover\.com$/, sig: /clover\.com\/online-ordering|cloverOnlineOrdering/ }
+  { type: 'toast', hosts: /(^|\.)toasttab\.com$/, sig: /__TOAST_|window\.__OO_STATE__/ },
+  { type: 'square', hosts: /(^|\.)square\.site$|(^|\.)squareup\.com$/, sig: /__BOOTSTRAP_STATE__/ },
+  { type: 'chownow', hosts: /(^|\.)chownow\.com$/, sig: /cn-ordering/ },
+  { type: 'clover', hosts: /(^|\.)clover\.com$/, sig: /cloverOnlineOrdering/ }
 ];
 
 export function detect(doc: Fetched): SourceType {
