@@ -71,6 +71,17 @@ export async function putRestaurant(r: Restaurant, m: Menu): Promise<void> {
   await writeJson(INDEX, next);
 }
 
+/** bulk upsert. writes the index once at the end rather than once per row. */
+export async function putRestaurants(rows: Restaurant[]): Promise<void> {
+  for (let i = 0; i < rows.length; i += 20) {
+    await Promise.all(rows.slice(i, i + 20).map((r) => writeJson(restaurantPath(r.id), r)));
+  }
+  const index = await getStoredIndex(true);
+  const merged = new Map(index.map((r) => [r.id, r]));
+  for (const r of rows) merged.set(r.id, r);
+  await writeJson(INDEX, [...merged.values()].sort((a, b) => a.id.localeCompare(b.id)));
+}
+
 /** publish a draft: snapshot whatever menu is there, write the new one, drop it from review. */
 export async function putMenu(r: Restaurant, draft: Draft, verifiedAt = new Date().toISOString()): Promise<void> {
   const prev = await getStoredMenu(r.id);
